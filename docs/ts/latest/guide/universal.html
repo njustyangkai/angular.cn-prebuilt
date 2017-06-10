@@ -1,0 +1,666 @@
+<!DOCTYPE html><html lang="en" ng-app="angularIOApp" itemscope itemtype="http://schema.org/Framework"><!-- template: public/docs/_layout--><head><title>Angular</title><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="Angular是用于构建移动应用和桌面Web应用的开发平台"/><meta name="keywords" content="Angular, 中文, 中文版, AngularJS, AngularDart, Javscript, Dart, Framework, JavaScript MVC, Google"/><meta name="robots" content="all"/><meta name="referrer" content="origin"/><meta name="viewport" id="viewport" content="width=device-width, initial-scale=1"/><meta property="og:title" content="Angular"/><meta property="og:image" content="/resources/images/logos/standard/shield-large.png"/><meta property="og:image:type" content="image/png"/><meta property="og:image:width" content="184"/><meta property="og:image:height" content="200"/><meta property="og:description" content="Angular是用于构建移动应用和桌面Web应用的开发平台"/><meta itemprop="name" content="Angular"/><meta itemprop="description" content="Angular是用于构建移动应用和桌面Web应用的开发平台"/><meta itemprop="image" content="/resources/images/logos/standard/shield-large.png"/><link rel="icon" type="image/x-icon" href="/resources/images/icons/favicon.ico"/><link rel="stylesheet" href="/resources/css/vendor/angular-material.min.css"/><link href="/resources/fonts/vendor/roboto.css" rel="stylesheet" type="text/css"/><link href="/resources/fonts/vendor/material-icons.css" rel="stylesheet"/><link rel="stylesheet" href="/resources/css/vendor/icomoon/style.css"/><link rel="stylesheet" href="/resources/css/vendor/animate.css"/><link rel="stylesheet" href="/resources/css/main.css"/><!-- MOBILE ICONS -->
+<link rel="apple-touch-icon" sizes="57x57" href="/resources/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/resources/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/resources/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/resources/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/resources/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/resources/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/resources/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/resources/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/resources/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/resources/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/resources/images/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/resources/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/resources/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/resources/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/resources/images/favicons/manifest.json"></head><body ng-controller="AppCtrl as appCtrl" class="l-offset-nav l-offset-side-nav"><nav data-swiftype-index="false" scroll-y-offset-element="scroll-y-offset-element" class="main-nav l-pinned-top l-layer-5"><h1><a href="/" md-button>Angular <sup>by Google</sup></a></h1><button aria-label="查看菜单" ng-click="appCtrl.toggleMainMenu($event)" md-button="md-button" class="main-nav-button main-nav-mobile-trigger l-right">网站菜单 <span class="icon icon-arrow-drop-down"></span></button><ul ng-class="appCtrl.showMainNav ? 'is-visible' : ''"><li class="l-left"><a class="main-nav-button" href="/features.html" md-button>特性</a></li><li class="l-left"><a class="main-nav-button" href="/docs/ts/latest/" md-button>文档</a></li><li class="l-left"><a class="main-nav-button" href="/events.html" md-button>会议</a></li><li class="l-left"><a href="http://community.angular.cn/" target="_blank" md-button="md-button" class="main-nav-button">社区</a></li><li class="l-left"><a class="main-nav-button" href="/translate/cn/home.html" md-button>关于中文版</a></li><li class="l-right"><a class="main-nav-button" href="/docs/ts/latest/quickstart.html" md-button>立即开始！</a></li><li class="l-right"><a ng-click="appCtrl.toggleSource($event)" href="href" class="main-nav-button md-button ng-cloak"><span>{{appCtrl.sourceVisible?'Hide English':'Show English'}}</span></a></li></ul></nav><!-- Include this file ONLY when current.path[2] is defined--><nav data-swiftype-index="false" ng-class="appCtrl.showDocsNav ? 'is-visible' : ''" class="sidenav l-pinned-left l-layer-4 l-offset-nav"><!-- SEARCH BAR--><header class="sidenav-search st-input-wrapper"><div class="st-input-inner"><label for="search-io" class="is-hidden">搜索文档</label><input type="text" placeholder="搜索文档..." class="st-default-search-input"/></div><button aria-label="View Docs Menu" ng-click="appCtrl.toggleDocsMenu($event)" md-button="md-button" class="mobile-trigger button">文档 <span class="icon icon-arrow-drop-down"></span></button></header><ul class="sidenav-links"><li class="sidenav-section no-border"><a href="/docs/ts/latest/" class="nav-title">文档首页</a></li><!-- CORE DOCUMENTATION--><li class="sidenav-section-divider"><h3>核心文档</h3></li><li class="sidenav-section"><a href="/docs/ts/latest/quickstart.html" title="快速起步" class="nav-title ">快速起步</a></li><li class="sidenav-section"><a href="/docs/ts/latest/cli-quickstart.html" title="使用 CLI 快速构建 Angular 应用" class="nav-title ">CLI 快速起步</a></li><li class="sidenav-section"><a href="/docs/ts/latest/guide/" title="如何阅读本文档" class="nav-title is-parent ">开发指南<img src="/resources/images/icons/ic_keyboard_arrow_down_black_24px.svg" class="inline-arrow-down-svg"/></a><div class="nav-ordered-lists is-hidden"><ul><li class="nav-list-item "><a href="/docs/ts/latest/guide/" title="如何阅读本文档">1. 概览</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/setup.html" title="安装 Angular 《快速起步》种子，更快更有效地在本地开发应用">2. 开发环境</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/learning-angular.html" title="Angular 初学者的推荐学习路径">3. 学习 Angular</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/architecture.html" title="Angular 应用的基本构造块">4. 架构</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/appmodule.html" title="如何在根 &quot;AppModule&quot; 中构建和启动应用。">5. 根模块</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/displaying-data.html" title="属性绑定机制把数据显示到用户界面上。">6. 显示数据</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/user-input.html" title="用户输入触发 DOM 事件。我们通过事件绑定来监听它们，把更新过的数据导入回我们的组件和 model。">7. 用户输入</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/forms.html" title="表单创建一个有机、有效、引人注目的数据输入体验。Angular 表单协调一组数据绑定控件，跟踪变更，验证输入的有效性，并且显示错误信息。">8. 表单</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/dependency-injection.html" title="Angular 的依赖注入系统能够即时地创建和交付所依赖的服务。">9. 依赖注入</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/template-syntax.html" title="学习如何写模板来显示数据，以及在数据绑定的帮助下响应用户事件。">10. 模板语法</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/cheatsheet.html" title="速查表">11. 速查表</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/style-guide.html" title="如何写 Angular 风格的程序">12. 风格指南</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/glossary.html" title="Angular 中最重要的词汇的简要定义">13. 词汇表</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/change-log.html" title="最新文档更新历史记录。">14. 更新记录</a></li></ul></div></li><li class="sidenav-section no-border"><a href="/docs/ts/latest/api/" title="API 参考手册" class="nav-title ">API参考手册</a></li><!-- ADVANCED DOCUMENATION--><li class="sidenav-section-divider"><h3>附加文档</h3></li><li class="sidenav-section"><a href="/docs/ts/latest/tutorial/" title="英雄指南教程带我们一步步使用 TypeScript 创建 Angular 应用。" class="nav-title is-parent ">教程<img src="/resources/images/icons/ic_keyboard_arrow_down_black_24px.svg" class="inline-arrow-down-svg"/></a><div class="nav-ordered-lists is-hidden"><ul><li class="nav-list-item "><a href="/docs/ts/latest/tutorial/" title="英雄指南教程带我们一步步使用 TypeScript 创建 Angular 应用。">1. 简介</a></li><li class="nav-list-item "><a href="/docs/ts/latest/tutorial/toh-pt1.html" title="构建一个简单的英雄编辑器">2. 英雄编辑器</a></li><li class="nav-list-item "><a href="/docs/ts/latest/tutorial/toh-pt2.html" title="构建一个主从结构的页面，用于展现英雄列表">3. 主从结构</a></li><li class="nav-list-item "><a href="/docs/ts/latest/tutorial/toh-pt3.html" title="把主从结构的页面重构成多个组件">4. 多个组件</a></li><li class="nav-list-item "><a href="/docs/ts/latest/tutorial/toh-pt4.html" title="创建一个可复用的服务来调用英雄的数据">5. 服务</a></li><li class="nav-list-item "><a href="/docs/ts/latest/tutorial/toh-pt5.html" title="添加 Angular 组件路由，并且学习在视图之间导航">6. 路由</a></li><li class="nav-list-item "><a href="/docs/ts/latest/tutorial/toh-pt6.html" title="把服务和组件改为用 Angular 的 HTTP 服务实现">7. HTTP</a></li></ul></div></li><li class="sidenav-section"><a href="/docs/ts/latest/guide/animations.html" title="Angular 动画系统指南。" class="nav-title is-parent ">高级文档<img src="/resources/images/icons/ic_keyboard_arrow_down_black_24px.svg" class="inline-arrow-down-svg"/></a><div class="nav-unordered-lists is-hidden"><ul><li class="nav-list-item "><a href="/docs/ts/latest/guide/animations.html" title="Angular 动画系统指南。" class="translated-cn">动画</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/attribute-directives.html" title="属性型指令把行为添加到现有元素上。" class="translated-cn">属性型指令</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/browser-support.html" title="浏览器支持与填充 (Polyfill) 指南" class="translated-cn">浏览器支持</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/component-styles.html" title="学习如何给组件应用 CSS 样式。" class="translated-cn">组件样式</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/deployment.html" title="如何部署Angular应用。" class="translated-cn">部署</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/hierarchical-dependency-injection.html" title="Angular 的多级依赖注入系统支持与组件树并行的嵌套式注入器。" class="translated-cn">多级注入器</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/reactive-forms.html" title="使用FormBuilder、组合数组创建响应式表单。" class="translated-cn">响应式表单</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/server-communication.html" title="通过 HTTP 客户端与远程服务器对话。" class="translated-cn">HTTP 客户端</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/lifecycle-hooks.html" title="Angular 调用指令和组件的生命周期钩子函数，包括它的创建、变更和销毁时。" class="translated-cn">生命周期钩子</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/ngmodule.html" title="用 @NgModule 定义应用中的模块" class="translated-cn">Angular模块 (NgModule)</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/npm-packages.html" title="推荐的 npm 包以及如何指定所依赖的包" class="translated-cn">npm 包</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/pipes.html" title="管道可以在模板中转换显示的内容。" class="translated-cn">管道</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/router.html" title="揭示如何通过 Angular 路由进行基本的屏幕导航。" class="translated-cn">路由与导航</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/security.html" title="开发内容安全的 Angular 应用。" class="translated-cn">安全</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/setup-systemjs-anatomy.html" title="解析 SystemJS 本地开发环境" class="translated-cn">搭建剖析</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/structural-directives.html" title="Angular 有一个强力的模板引擎，它能让你轻松维护元素的DOM树结构。" class="translated-cn">结构型指令</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/testing.html" title="Angular 应用的测试技术与实践。" class="translated-cn">测试</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/typescript-configuration.html" title="Angular 开发者的 TypeScript 配置" class="translated-cn">TypeScript 配置</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/upgrade.html" title="AngularJS 应用可以逐步升级到 Angular。" class="translated-cn">从 AngularJS 升级</a></li><li class="nav-list-item "><a href="/docs/ts/latest/guide/webpack.html" title="使用基于 Webpack 的工具创建 Angular 应用" class="translated-cn">Webpack 简介</a></li></ul></div></li><li class="sidenav-section"><a href="/docs/ts/latest/cookbook/" title="一组常见 Angular 应用场景的“烹饪宝典”" class="nav-title is-parent ">烹饪宝典<img src="/resources/images/icons/ic_keyboard_arrow_down_black_24px.svg" class="inline-arrow-down-svg"/></a><div class="nav-unordered-lists is-hidden"><ul><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/" title="一组常见 Angular 应用场景的“烹饪宝典”" class="translated-cn">概览</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/aot-compiler.html" title="学习如何使用预编译器" class="translated-cn">预 (AoT) 编译器</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/ajs-quick-reference.html" title="学习如何把 AngularJS 中的概念和技术对应到 Angular 中" class="translated-cn">从 AngularJS 到 Angular</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/component-communication.html" title="在不同的指令和组件之间共享信息" class="translated-cn">组件通讯</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/component-relative-paths.html" title="为组件的模板和样式指定相对于组件的路径" class="translated-cn">相对于组件的路径</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/dependency-injection.html" title="依赖注入技术" class="translated-cn">依赖注入</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/dynamic-component-loader.html" title="如何动态加载组件" class="translated-cn">动态组件加载器</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/dynamic-form.html" title="用 FormGroup 渲染动态表单" class="translated-cn">动态表单</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/form-validation.html" title="验证用户在表单中的输入" class="translated-cn">表单验证</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/i18n.html" title="把应用的模板文本翻译成多种语言。" class="translated-cn">国际化 (i18n)</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/ngmodule-faq.html" title="对 @NgModule 常见问题的解答" class="translated-cn">Angular 模块常见问题</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/set-document-title.html" title="使用 Title 服务来设置文档标题或窗口标题" class="translated-cn">设置文档标题</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/ts-to-js.html" title="把 Angular 的 TypeScript 范例转换为 ES6 和 ES5 JavaScript." class="translated-cn">从 TypeScript 到 JavaScript</a></li><li class="nav-list-item "><a href="/docs/ts/latest/cookbook/visual-studio-2015.html" title="使用 Visual Studio 2015 快速起步" class="translated-cn">Visual Studio 2015 快速起步</a></li></ul></div></li></ul><nav class="dropdown"><button aria-label="选择Angular版本" md-button="md-button" ng-click="appCtrl.toggleVersionMenu($event)" class="dropdown-button">Angular for TypeScript  <span class="icon icon-arrow-drop-down"></span></button><div ng-click="appCtrl.toggleVersionMenu($event)" ng-show="appCtrl.showMenu" class="overlay ng-hide"></div><ul ng-class="appCtrl.showMenu ? 'is-visible' : ''" class="dropdown-menu"><li><a href="/docs/ts/latest/guide/universal.html" md-button>Angular for TypeScript </a></li><li><a href="/docs/js/latest/guide/universal.html" md-button>Angular for JavaScript </a></li><li><a href="/docs/dart/latest/guide/universal.html" md-button>Angular for Dart </a></li></ul></nav></nav><script>// Could put in appCtrl but only needed here and clear here
+(function scrollToSelectedLink() {
+  var sideNav = document.getElementsByClassName('sidenav')[0];
+  var link = sideNav.getElementsByClassName('is-selected')[0];
+  if (link && link.offsetTop > window.innerHeight) {
+    sideNav.scrollTop = link.offsetTop - (window.innerHeight / 2);
+    //alert("offsetTop: " + link.offsetTop + " side-nav top is " + sideNav.scrollTop);
+  }
+})()</script><header class="hero background-sky"><h1 class="hero-title ">Angular </h1><div class="clear"></div></header><article class="l-content-small grid-fluid docs-content"><p><strong>Note: This build setup described in this guide is experimental and subject to change.</strong></p>
+<h1>Angular Universal</h1><h2>Table of Contents</h2><ul>
+<li><p><a href="#overview">Overview</a></p>
+<ul>
+<li><a href="#how-does-it-work">How does it work?</a></li>
+<li><p><a href="#why-do-it">Why do it?</a></p>
+<ul>
+<li><a href="#seo-no-javascript">SEO / No JavaScript</a></li>
+<li><a href="#startup-performance">Startup Performance</a></li>
+</ul>
+</li>
+<li><p><a href="#the-example">The Example</a></p>
+</li>
+</ul>
+</li>
+<li><p><a href="#preparation">Preparation</a></p>
+<ul>
+<li><a href="#installing-the-tools">Installing the tools</a></li>
+<li><a href="#component-relative-urls">Component-relative URLs</a></li>
+<li><a href="#server-transition">Server Transition</a></li>
+</ul>
+</li>
+<li><p><a href="#configuration-aot">Configuration - AOT</a></p>
+<ul>
+<li><a href="#main-entry-point">Main Entry Point</a></li>
+<li><a href="#creating-the-tsconfig-aot-json">Creating the tsconfig-aot.json</a></li>
+<li><p><a href="#webpack-configuration">Webpack Configuration</a></p>
+<ul>
+<li><a href="#loader">Loader</a></li>
+<li><a href="#plugin">Plugin</a></li>
+<li><a href="#input">Input</a></li>
+<li><a href="#output">Output</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a href="#build-aot">Build - AOT</a></p>
+<ul>
+<li><a href="#source-maps">Source Maps</a></li>
+</ul>
+</li>
+<li><p><a href="#serve-aot">Serve - AOT</a></p>
+<ul>
+<li><a href="#lite-server-configuration">Lite Server Configuration</a></li>
+<li><a href="#serve-command">Serve Command</a></li>
+</ul>
+</li>
+<li><p><a href="#configuration-universal">Configuration - Universal</a></p>
+<ul>
+<li><p><a href="#server-code">Server Code</a></p>
+<ul>
+<li><a href="#app-server-module">App Server Module</a></li>
+<li><a href="#universal-engine">Universal Engine</a></li>
+<li><a href="#web-server">Web Server</a></li>
+</ul>
+</li>
+<li><p><a href="#creating-the-tsconfig-uni-json">Creating the tsconfig-uni.json</a></p>
+</li>
+<li><p><a href="#creating-the-webpack-config-uni-js">Creating the webpack.config.uni.js</a></p>
+<ul>
+<li><a href="#the-entry-points">The entry points</a></li>
+<li><a href="#the-output-file">The output file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a href="#build-and-serve-universal">Build and Serve - Universal</a></p>
+<ul>
+<li><p><a href="#exercising-universal">Exercising Universal</a></p>
+<ul>
+<li><a href="#disabling-the-client-app">Disabling the Client App</a></li>
+<li><a href="#throttling">Throttling</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
+<h1>Overview <a name="overview"></a></h1><p>Angular Universal is a technology that lets Angular applications run outside of the browser.  Using Universal, you can run your Angular application on any <a href="https://nodejs.org/en/">Node.js</a> server.  You can use it to generate the HTML output on-demand, or generate HTML files ahead of time.</p>
+<h2>How does it work? <a name="how-does-it-work"></a></h2><p>Angular Universal works by compiling the app to make it capable of running on the server, a form of <em>Ahead of Time</em> compilation (<a href="../cookbook/aot-compiler.html">AOT</a>).  It&#39;s different from regular AOT because the app is compiled using <code>platform-server</code> instead of <code>platform-browser</code>.  This changes the app behavior to make it capable of rendering to an HTML string on the server instead of the browser DOM.</p>
+<p>The resulting app is necessarily limited.  For example, a Universal app does not handle browser events such as mouse or keyboard inputs, nor send AJAX requests.</p>
+<blockquote>
+<p>An available tool called <a href="https://universal.angular.io/api/preboot/index.html">Preboot</a> will record browser events so they can be played back into the full Angular app once it is loaded.</p>
+</blockquote>
+<p>In this guide, we will use Webpack to create an AOT-compiled version of the app, and then build on that to create a Universal server for the app.</p>
+<h2>Why do it? <a name="why-do-it"></a></h2><p>Why would you want to create a static version of your app?  There are two main reasons:</p>
+<ol>
+<li>SEO / No JavaScript</li>
+<li>Startup performance</li>
+</ol>
+<h3>SEO / No JavaScript <a name="seo-no-javascript"></a></h3><p>Your highly-interactive Angular app may not be easily digestible to search engines.  Using Angular Universal, you can generate a static version of your app with navigation through the pages.  This makes the content of your app searchable, linkable, and navigable without JavaScript.  It also makes a site preview available to search engines and social media.</p>
+<h3>Startup Performance <a name="startup-performance"></a></h3><p>Application startup time is critical for user engagement.  While AOT compilation speeds up application start times, it may not be enough, especially on mobile devices with slow connections.  <a href="https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/">53% of mobile site visits are abandoned</a> if pages take longer than 3 seconds to load.  Your app needs to load quickly, to engage users before they decide to do something else.</p>
+<p>With Angular Universal, you can generate landing pages for the app that look like the complete app.  The pages are pure HTML, and can display even if JavaScript is disabled.  The pages do not handle browser events, but they <em>do</em> support navigation through the site use <a href="../guide/router.html#!#router-link">routerLink</a>.</p>
+<p>The recommended scenario is to serve a static version of the landing page, then load your Angular app behind it.  This gives the appearance of near-instant performance, and offers the full interactive experience once the full app is loaded.  Better than a &quot;loading&quot; spinner, it&#39;s a real screen that engages the user.</p>
+<h4>Startup Comparison <a name="startup-comparison"></a></h4><p>To illustrate the impact of Universal, we have used the <a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool">Timeline feature in Chrome DevTools</a>. Timeline offers many ways to inspect the performance of your app.  Here we have used it to compare the uncached startup performance of the <em>Tour of Heroes</em> app.  Tour of Heroes is a simple demo app without much code or content, so it is smaller than the real apps you will build.  </p>
+<p>The test was done by measuring the time from browser refresh until the Tour of Heroes Dashboard is fully displayed.  The numbers and bars below represent the time from the initial request until the Dashboard page is visible in the app, so lower numbers are better.</p>
+<p>First, a PC browser with a local server, where browser performance and network response are very fast:</p>
+<p><style scoped>
+    table.perf {
+        width: 100%;
+    }
+    table.perf td {
+        font-weight: bold;
+        text-align: center;
+    }
+</style></p>
+<table class="perf">
+  <tr>
+    <th></th>
+    <th>Load Time</th>
+    <th>Time Allocation</th>
+  </tr>
+  <tr>
+    <td>JIT</td>
+    <td>1.01s</td>
+    <td><img src="universal-img/toh-jit-local-pie.png" alt="JIT local time allocation"></td>
+  </tr>
+  <tr>
+    <td>AOT</td>
+    <td>0.29s</td>
+    <td><img src="universal-img/toh-aot-local-pie.png" alt="AOT local time allocation"></td>
+  </tr>
+  <tr>
+    <td>Universal</td>
+    <td>0.04s</td>
+    <td><img src="universal-img/toh-uni-local-pie.png" alt="Universal local time allocation"></td>
+  </tr>
+</table>
+
+<p>You can see that the AOT-compiled version loaded faster than the JIT version (288ms versus 1000ms), and that most of the difference was in JavaScript execution.  The universal version was the fastest (40ms), with no JavaScript to execute. </p>
+<p>The difference may not seem significant, since all are sufficiently fast.  But how would the app perform on a slower device with a slower network connection?  <a href="https://developers.google.com/web/updates/2016/09/devtools-digest#cpu_throttling_for_a_mobile-first_world">CPU Throttling</a> and <a href="https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#throttling">Network Throttling</a>  can help you find out.</p>
+<p>The test was repeated using a simulated 5x slower CPU and simulated 3G network (750kb/s).</p>
+<table class="perf">
+  <tr>
+    <th></th>
+    <th>Load Time</th>
+    <th>Time Allocation</th>
+  </tr>
+  <tr>
+    <td>JIT</td>
+    <td>37.3s</td>
+    <td><img src="universal-img/toh-jit-throttled-pie.png" alt="JIT 3G time allocation"></td>
+  </tr>
+  <tr>
+    <td>AOT</td>
+    <td>5.5s</td>
+    <td><img src="universal-img/toh-aot-throttled-pie.png" alt="AOT 3G time allocation"></td>
+  </tr>
+  <tr>
+    <td>Universal</td>
+    <td>0.4s</td>
+    <td><img src="universal-img/toh-uni-throttled-pie.png" alt="Universal 3G time allocation"></td>
+  </tr>
+</table>
+
+<p>In this mobile scenario, the JIT app spends almost 30 seconds just waiting for its many files to load, followed by 6.5 seconds executing JavaScript.  The AOT-compiled app is much better, spending just 4 seconds to load the bundle and 1.3 seconds to execute it, but still much more than the 3-second limit.</p>
+<p>The Universal app displays the Dashboard page in just 0.4 seconds, since it displays without waiting for the JavaScript to load.  The app would not be fully functional until its JavaScript bundles have loaded, which would be comparable to the load time for the AOT app, but the user can view the first page immediately.</p>
+<blockquote>
+<p>If you want your app to be usable on slow networks, AOT is a must.  Universal should be considered if first impressions are important.</p>
+</blockquote>
+<h2>The Example <a name="the-example"></a></h2><p>This guide uses the <em>Tour of Heroes</em> app as an example.  The app files remain the same, but additional support files are created to support building and serving the AOT and Universal versions.</p>
+<p>The AOT and Universal versions of the app are both compiled by the AOT compiler.  The difference is that AOT version gets compiled into a bundle that is sent to the client, while the Universal version is compiled into a web server that serves pages that are rendered from the app.</p>
+<p>To build and run the AOT version, you need to create:</p>
+<ul>
+<li>an <code>index-aot.html</code> file</li>
+<li>a main entry point, <code>main-aot.ts</code></li>
+<li>a TypeScript config file, <code>tsconfig-aot.json</code></li>
+<li>a Webpack config file, <code>webpack.config.aot.js</code></li>
+<li><p>a lite-server config file, <code>bs-config.aot.js</code></p>
+<p>To build and run the Universal version, you need to create:</p>
+</li>
+<li><p>a server-side app module, <code>app.server.ts</code></p>
+</li>
+<li>a Universal app renderer, <code>universal-engine.ts</code></li>
+<li>an express web server to handle requests, <code>server-aot.ts</code></li>
+<li>a TypeScript config file, <code>tsconfig-uni.json</code></li>
+<li>a Webpack config file, <code>webpack.config.uni.js</code></li>
+</ul>
+<p>The folder structure will look like this:</p>
+<pre><code class="language-shell">src/  index.html                    index file for JIT version
+      index-aot.html                index file for AOT version *
+      main.ts                       bootstrapper for JIT version
+      main-aot.ts                   bootstrapper for AOT version *
+      style.css                     styles for JIT version
+      systemjs.config.js            SystemJS configuration for JIT version
+      systemjs-angular-loader.js    component loader that allows relative paths
+      tsconfig.json                 TypeScript configuration for JIT version
+      app/  app.module.ts           application code
+            ...                     ...
+      uni/  app.server.ts           server-side application module *
+            server-aot.ts           express web server *
+            universal-engine.ts     server-side app renderer *
+      dist/ build.js                AOT-compiled application bundle *
+            server.js               AOT-compiled server bundle *
+bs-config.json                      config file for lite server, JIT version
+bs-config.aot.js                    config file for lite server, AOT version *
+package.json                        npm configuration
+tsconfig-aot.json                   TypeScript configuration for AOT version *
+tsconfig-uni.json                   TypeScript configuration for Universal version *
+webpack.config.aot.js               Webpack configuration for AOT version *
+webpack.config.uni.js               Webpack configuration for Universal version *
+</code></pre>
+<p>The files marked with * are new and not in the original Tour of Heroes demo.  This guide covers the new files in the sections below.</p>
+<h1>Preparation <a name="preparation"></a></h1><h2>Installing the tools <a name="installing-the-tools"></a></h2><p>To get started, you need to install the necessary modules for AOT and Webpack.</p>
+<ul>
+<li><code>@angular/compiler-cli</code> - The ngc compiler that compiles Angular applications </li>
+<li><code>@angular/platform-server</code> - Server-side components needed for compilation</li>
+<li><code>webpack</code> - The Webpack JavaScript bundler</li>
+<li><code>@ngtools/webpack</code> - The Webpack loader and plugin for bundling compiled applications</li>
+<li><code>raw-loader</code> - The Webpack loader for text files</li>
+<li><code>express</code> - The web server for serving the Universal application</li>
+</ul>
+<p>You can install them with the following commands:</p>
+<pre><code>npm install @angular/compiler-cli @angular/platform-server --save-dev
+npm install webpack @ngtools/webpack raw-loader express --save-dev
+</code></pre><h2>Component-relative URLs <a name="component-relative-urls"></a></h2><p>The AOT compiler requires that <code>@Component</code> URLs for external templates and css files be <em>component-relative</em>.
+That means that the value of @Component.templateUrl is a URL value relative to the component class file.
+For example, an <code>&#39;./app.component.html&#39;</code> URL means that the template file is a sibling of its companion app.component.ts file.
+(The leading <code>./</code> is needed by Webpack to recognize that the string represents a path and not a module name.)</p>
+<p>SystemJS allows both absolute and relative URLs (via <a href="">systemjs-angular-loader</a>), so you could have both in your app.  Before building your app with AOT and Universal, you will need to convert them.</p>
+<p>From this:</p>
+<pre><code class="language-ts">    @Component({
+        selector: &#39;my-component&#39;,
+        templateUrl: &#39;app/demo/components/my.component.html&#39;
+    })
+</code></pre>
+<p>To this:</p>
+<pre><code class="language-ts">    @Component({
+        selector: &#39;my-component&#39;,
+        templateUrl: &#39;./my.component.html&#39;
+    })
+</code></pre>
+<h2>Server Transition <a name="server-transition"></a></h2><p>When a client-side Angular app bootstraps into a Universal page, it replaces the HTML that was there with its own rendered components.  This transition is enabled by a shared id between the client and server apps.  The id is defined using <code>BrowserModule.withServerTransition</code> in the AppModule that is shared by the client and server.</p>
+<p>Open file <code>src/app.module.ts</code> and find the <code>BrowserModule</code> import.  Then replace this:</p>
+<pre><code class="language-ts">@NgModule({
+  imports: [
+    BrowserModule,
+    FormsModule,
+    ...
+</code></pre>
+<p>with this:</p>
+<pre><code class="language-ts">@NgModule({
+  imports: [
+    BrowserModule.withServerTransition({
+      appId: &#39;toh-universal&#39;
+    }),
+    FormsModule,
+    ...
+</code></pre>
+<h1>Configuration - AOT <a name="configuration-aot"></a></h1><h2>Main Entry Point <a name="main-entry-point"></a></h2><p>In the JIT-compiled app, <code>main.ts</code> is the entry point that bootstraps the app module.<br>An AOT-compiled app bootstraps differently, using <code>platformBrowser</code> instead of <code>platformBrowserDynamic</code> and using the <em>factory</em> that is created by pre-compiling the app module.  A separate main entry point is needed.  </p>
+<p>In the <code>src</code> directory, create a <code>main-aot.ts</code> like the one shown here:</p>
+<pre><code class="language-ts">import { platformBrowser }    from &#39;@angular/platform-browser&#39;;
+import { AppModuleNgFactory } from &#39;../aot/src/app/app.module.ngfactory&#39;;
+
+platformBrowser().bootstrapModuleFactory(AppModuleNgFactory);
+</code></pre>
+<p>There&#39;s a chicken-and-egg problem here.
+The <code>AppModuleNgFactory</code> won&#39;t exist until the app is compiled, but the <code>main-aot.ts</code> won&#39;t compile because <code>AppModuleNgFactory</code> doesn&#39;t exist yet.</p>
+<p>One way around this problem is to compile <code>app.module.ts</code> before <code>main-aot.ts</code>.  You can tell the compiler to do that using the <code>files</code> array in the <code>tsconfig-aot.json</code>, which you will create in the next section.</p>
+<pre><code class="language-json">&quot;files&quot;: [
+    &quot;src/app/app.module.ts&quot;,
+    &quot;src/main-aot.ts&quot;
+],
+</code></pre>
+<p>Since <code>app.module.ts</code> appears first in the array, it will be compiled into an <code>ngfactory</code> first.  So <code>AppModuleNgFactory</code> will be available for <code>main-aot.ts</code>.</p>
+<h2>Creating the tsconfig-aot.json <a name="creating-the-tsconfig-aot-json"></a></h2><p>The AOT compiler transpiles TypeScript into JavaScript (like <code>tsc</code>), and compiles your app&#39;s components, services, etc. into executable JavaScript code. 
+You configure it using a JSON file similar to <code>tsconfig.json</code>.  There are a few differences:</p>
+<ul>
+<li>The <code>module</code> setting must be <code>es2015</code>.
+This creates JavaScript output with <code>import</code> statements (instead of <code>require()</code>) that can be compiled and bundled.</li>
+<li>The <code>files</code> setting includes the app module and the main AOT bootstrapper.  See more about this in the section below.</li>
+<li><p>There is a new <code>angularCompilerOptions</code> section with the following settings:</p>
+<ul>
+<li><code>genDir</code> - the output directory that will contain the compiled <code>ngfactory</code> code.  When compiling via Webpack, this is used as a temporary directory.</li>
+<li><code>entryModule</code> - the root module of the app, expressed as <strong>path/to/file#ClassName</strong>.</li>
+<li><code>skipMetadataEmit</code> - set to <code>true</code> because you don&#39;t need metadata in the bundled application</li>
+</ul>
+</li>
+</ul>
+<p>Create a <code>tsconfig-aot.json</code> file in the project rood directory by copying your <code>tsconfig.json</code> and applying the changes described above.  It should look like this:</p>
+<pre><code class="language-json">{
+    &quot;compilerOptions&quot;: {
+        &quot;target&quot;: &quot;es5&quot;,
+        &quot;module&quot;: &quot;es2015&quot;,
+        &quot;moduleResolution&quot;: &quot;node&quot;,
+        &quot;sourceMap&quot;: true,
+        &quot;emitDecoratorMetadata&quot;: true,
+        &quot;experimentalDecorators&quot;: true,
+        &quot;lib&quot;: [&quot;es2015&quot;, &quot;dom&quot;],
+        &quot;noImplicitAny&quot;: true,
+        &quot;suppressImplicitAnyIndexErrors&quot;: true,
+        &quot;typeRoots&quot;: [ &quot;node_modules/@types/&quot; ]
+    },
+
+    &quot;files&quot;: [
+        &quot;src/app/app.module.ts&quot;,
+        &quot;src/main-aot.ts&quot;
+    ],
+
+    &quot;angularCompilerOptions&quot;: {
+        &quot;genDir&quot;: &quot;aot&quot;,
+        &quot;entryModule&quot;: &quot;./src/app/app.module#AppModule&quot;,
+        &quot;skipMetadataEmit&quot; : true
+    }
+}
+</code></pre>
+<h2>Webpack Configuration <a name="webpack-configuration"></a></h2><p>The <a href="webpack.html">Webpack Introduction</a> explains how to configure Webpack to bundle your Angular application.
+Using Webpack for AOT is similar, but uses different <a href="webpack.html#loaders">loaders</a> and <a href="webpack.html#plugins">plugins</a>.  </p>
+<p>Create a <code>webpack.config.aot.js</code> file in the project root directory, and add the content shown below.  The salient parts are explained in the following sections.</p>
+<pre><code class="language-ts">const ngtools = require(&#39;@ngtools/webpack&#39;);
+const webpack = require(&#39;webpack&#39;);
+
+module.exports = {
+    devtool: &#39;source-map&#39;,
+    entry: {
+        main: &#39;./src/main-aot.ts&#39;
+    },
+    resolve: {
+        extensions: [&#39;.ts&#39;, &#39;.js&#39;]
+    },
+    target: &#39;node&#39;,
+    output: {
+        path: &#39;src/dist&#39;,
+        filename: &#39;build.js&#39;
+    },
+    plugins: [
+        new ngtools.AotPlugin({
+            tsConfigPath: &#39;./tsconfig-aot.json&#39;
+        }),
+        new webpack.optimize.UglifyJsPlugin({ sourceMap: true })
+    ],
+    module: {
+        rules: [
+            { test: /\.css$/, loader: &#39;raw-loader&#39; },
+            { test: /\.html$/, loader: &#39;raw-loader&#39; },
+            { test: /\.ts$/, loader: &#39;@ngtools/webpack&#39; }
+        ]
+    }
+}
+</code></pre>
+<h3>Loader <a name="loader"></a></h3><p>For AOT, the <strong>loader</strong> to use for TypeScript files is <code>@ngtools/webpack</code>.
+This loads TypeScript files and interprets the Angular decorators to prepare for AOT compilation.
+Since it is used for TypeScript files, configure the loader for <code>*.ts</code>:</p>
+<pre><code class="language-ts">module: {
+    rules: [
+        ...
+        { test: /\.ts$/, loader: &#39;@ngtools/webpack&#39; } // use ngtools loader for typescript
+    ]
+}
+</code></pre>
+<p>When CSS and HTML files are encountered while processing the TypeScript, the <a href="https://webpack.js.org/loaders/raw-loader/">raw-loader</a> is used.
+It simply loads the file as a string, allowing Webpack to include it in the bundle.</p>
+<p>For more complex loading scenarios, see the <a href="https://angular.io/docs/ts/latest/guide/webpack.html#loaders">Webpack Introduction</a>.</p>
+<h3>Plugin <a name="plugin"></a></h3><p>The AOT <strong>plugin</strong> is called <code>ngtools.AotPlugin</code>, and performs TypeScript compilation and Angular compilation
+using the same underlying compiler as <code>ngc</code>.
+The plugin accepts <a href="https://www.npmjs.com/package/@ngtools/webpack#options">several options</a>, but the only required option is <code>tsConfigPath</code>. </p>
+<blockquote>
+<p>Despite the <a href="https://www.npmjs.com/package/@ngtools/webpack#options">ngtools documentation</a>, the <code>entryModule</code> option must be in the <code>tsconfig-aot.json</code>, not inside the Webpack config.</p>
+</blockquote>
+<pre><code class="language-ts">plugins: [
+    new ngtools.AotPlugin({
+        tsConfigPath: &#39;./tsconfig-aot.json&#39;
+    }),
+    new webpack.optimize.UglifyJsPlugin({ sourceMap: true })
+],
+</code></pre>
+<p>The <code>tsConfigPath</code> tells the plugin where to find the TypeScript configuration file to use when compiling.
+This should be the AOT-specific <code>tsconfig-aot.json</code> described above.</p>
+<p>The <code>UglifyJsPlugin</code> minifies the JavaScript output by removing spaces and shortening names.  It slows down the build, so you can leave it off during development.</p>
+<h3>Input <a name="input"></a></h3><p>Webpack&#39;s inputs are the source files for your application.
+You just need to give it the <a href="webpack.html#entries-outputs">entry point(s)</a>, and
+Webpack follows the dependency graph to find what files it needs to bundle.</p>
+<p>When performing AOT, the entry point is the <code>main-aot.ts</code> file described above.
+Starting there, Webpack will pull in your app code and imported dependencies.
+It will pull in the Angular libraries used by the app, but it will <em>not</em> pull in the Angular compiler, since it&#39;s not needed in an AOT-compiled app.</p>
+<pre><code class="language-ts">entry: {
+    main: &#39;./src/main-aot.ts&#39;
+},
+</code></pre>
+<p>The <a href="webpack.html#entries-outputs">Webpack Introduction</a> describes how to create separate bundles for 
+app code, vendor libraries, and polyfills.  For simplicity, this example shows a single-bundle scenario.</p>
+<h3>Output <a name="output"></a></h3><p>After the plugin compiles the app files, Webpack bundles them into one or more output bundles.
+These are the JavaScript files that will be loaded by the browser to run the app.  Tell Webpack where to put the bundles:</p>
+<pre><code class="language-ts">output: {
+    path: &#39;src/dist&#39;,
+    filename: &#39;build.js&#39;
+},
+</code></pre>
+<p>We put them in a <code>dist</code> directory under <code>src</code>, so the server can find them.</p>
+<h1>Build - AOT <a name="build-aot"></a></h1><p>Now that you&#39;ve created the TypeScript and Webpack config files, you can build the application.  First add the build command to the <code>scripts</code> section of your <code>package.json</code>.</p>
+<pre><code class="language-json">&quot;scripts&quot;: {
+    &quot;build:aot&quot;: &quot;webpack --config webpack.config.aot.js&quot;
+    ...
+}
+</code></pre>
+<p>Then, from the command prompt, type</p>
+<pre><code class="language-shell">npm run build:aot
+</code></pre>
+<p>to build the output bundle.</p>
+<p>As configured above, this transpiles the TypeScript files, Angular-compiles the components, and 
+Webpacks the results into a single output file, <code>src/dist/build.js</code>.
+It also generates a <a href="https://webpack.js.org/configuration/devtool/">source map</a>, <code>src/dist/build.js.map</code> that 
+relates the bundle code to the source code.  </p>
+<h2>Source Maps <a name="source-maps"></a></h2><p>Source maps let you use the browser&#39;s <a href="https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps">dev tools</a> to set breakpoints in your source code, even though the browser is actually running an AOT-compiled bundle.</p>
+<p>Examining the source map is a useful exercise because it shows the names of the files that are included in the bundle, 
+in the order that Webpack included them.</p>
+<p>Look at the <code>src/dist/build.js.map</code>:</p>
+<pre><code class="language-js">{&quot;version&quot;:3,&quot;sources&quot;:[
+&quot;webpack:///webpack/bootstrap 097108a2a4bbafeb64bb&quot;,
+&quot;webpack:///./~/rxjs/Observable.js&quot;,
+&quot;webpack:///./~/rxjs/Subscriber.js&quot;,
+&quot;webpack:///./~/@angular/core/@angular/core.es5.js&quot;,
+&quot;webpack:///./~/@angular/common/@angular/common.es5.js&quot;,
+&quot;webpack:///./~/@angular/router/@angular/router.es5.js&quot;,
+&quot;webpack:///./~/rxjs/util/root.js&quot;,
+&quot;webpack:///./~/@angular/http/@angular/http.es5.js&quot;,
+&quot;webpack:///./src/app/hero.service.ts&quot;,
+...
+</code></pre>
+<p>This shows that Webpack has included <code>rxjs</code> and <code>@angular</code> libraries ahead of the app&#39;s own <code>hero.service.ts</code>.</p>
+<p>If you create <a href="webpack.html#multiple-bundles">multiple bundles</a>, 
+look at the source maps to make sure the same file isn&#39;t included in more than one bundle.</p>
+<h1>Serve - AOT <a name="serve-aot"></a></h1><p>Now you&#39;ve built the app bundle, so its time to test out the app.</p>
+<h2>Lite Server Configuration <a name="lite-server-configuration"></a></h2><p>The <a href="https://github.com/johnpapa/lite-server">lite-server</a> is used in the <a href="../quickstart.html">Quickstart</a> and
+Tour of Heroes examples to run and test the application in development.
+To use it for the AOT app-compiled app, create a new configuration file, <code>bs-config.aot.js</code>.
+It&#39;s different from the JIT version because it uses the <code>index-aot.html</code> as its default file.
+It also uses a new port number so you can run the versions side-by-side.  Here&#39;s the file:</p>
+<pre><code class="language-ts">module.exports = {
+  port: 3100,
+  server: {
+    baseDir: &quot;src&quot;,
+    routes: {
+      &quot;/node_modules&quot;: &quot;node_modules&quot;
+    },
+    middleware: {
+      // overrides the fallback middleware to use index-aot
+      1: require(&#39;connect-history-api-fallback&#39;)({ index: &#39;/index-aot.html&#39; })
+    }
+  }
+};
+</code></pre>
+<blockquote>
+<p>Note that the above must be a JavaScript file, not JSON, because of the call to <code>require</code>.</p>
+</blockquote>
+<h2>Serve Command <a name="serve-command"></a></h2><p>Add the serve command to the <code>scripts</code> section of your <code>package.json</code>.  The command launches lite-server using the configuration file created above.</p>
+<pre><code class="language-json">&quot;scripts&quot;: {
+    &quot;serve:aot&quot;: &quot;lite-server -c=bs-config.aot.js&quot;,
+    ...
+}
+</code></pre>
+<p>Then, from the command prompt, type</p>
+<pre><code class="language-shell">npm run serve:aot
+</code></pre>
+<p>The server starts with BrowserSync, so it starts the browser and loads the page showing the Tour of Heroes app.  You can use the app and test that it behaves the same as the JIT version.</p>
+<p>Now you&#39;ve built a working app using Webpack and AOT.  </p>
+<h1>Configuration - Universal <a name="configuration-universal"></a></h1><p>Now you can use a similar approach to build the Universal app.</p>
+<h2>Server Code <a name="server-code"></a></h2><p>The code specific to Universal is in three files:</p>
+<ol>
+<li>The app server module</li>
+<li>The Universal engine</li>
+<li>The web server</li>
+</ol>
+<p>We&#39;ll go through these one at a time.</p>
+<h3>App Server Module <a name="app-server-module"></a></h3><p>The app server module is an Angular module that imports both the client-side app module and Angular&#39;s ServerModule.  It tells Angular how to bootstrap the application when running on the server.</p>
+<p>Create an <code>app.server.ts</code> file in the <code>src/uni</code> directory and add the following code:</p>
+<pre><code class="language-ts">import { NgModule } from &#39;@angular/core&#39;;
+import { APP_BASE_HREF } from &#39;@angular/common&#39;;
+import { ServerModule } from &#39;@angular/platform-server&#39;;
+import { AppComponent } from &#39;../app/app.component&#39;;
+import { AppModule } from &#39;../app/app.module&#39;;
+
+@NgModule({
+  imports: [
+    ServerModule,
+    AppModule
+  ],
+  bootstrap: [
+    AppComponent
+  ],
+  providers: [
+    {provide: APP_BASE_HREF, useValue: &#39;/&#39;}
+  ]
+})
+export class AppServerModule {
+}
+</code></pre>
+<h3>Universal Engine <a name="universal-engine"></a></h3><p>The Universal Engine is the heart of a Universal application.  It is the code that takes an HTML template and a route url, and renders the HTML for the page.  The HTML output is the result of rendering the components that are displayed for the given route.</p>
+<p>The rendered output could be stored as static HTML files to be served later.  The demo code below serves the rendered pages directly, but it caches the output in memory, so that a given route only needs to be rendered once.</p>
+<p>Create the <code>universal-engine.ts</code> file in the <code>src/uni</code> directory, and add the following code:</p>
+<pre><code class="language-ts">import * as fs from &#39;fs&#39;;
+import { renderModuleFactory } from &#39;@angular/platform-server&#39;;
+
+const templateCache = {}; // cache for page templates
+const outputCache = {};   // cache for rendered pages
+
+export function ngUniversalEngine(setupOptions: any) {
+
+  return function (filePath: string, options: { req: Request }, callback: (err: Error, html: string) =&gt; void) {
+    let url: string = options.req.url;
+    let html: string = outputCache[url];
+    if (html) {
+      // return already-built page for this url
+      console.log(&#39;from cache: &#39; + url);
+      callback(null, html);
+      return;
+    }
+
+    console.log(&#39;building: &#39; + url);
+    if (!templateCache[filePath]) {
+      let file = fs.readFileSync(filePath);
+      templateCache[filePath] = file.toString();
+    }
+
+    // render the page via angular platform-server
+    let appModuleFactory = setupOptions.bootstrap[0];
+    renderModuleFactory(appModuleFactory, {
+      document: templateCache[filePath],
+      url: url
+    }).then(str =&gt; {
+      outputCache[url] = str;
+      callback(null, str);
+    });
+  };
+}
+</code></pre>
+<h3>Web Server <a name="web-server"></a></h3><p>The web server accepts HTTP requests and sends back the response.  For requests that are routes within the app, it creates the response by calling the Universal engine to render a page.  For static file requests, it returns the file contents.</p>
+<p>This web server is based on the popular <a href="https://expressjs.com/">Express</a> web framework.  Other web serving techniques would work for Universal, as long as they can send the appropriate requests to the universal engine.</p>
+<p>Create the <code>server-aot.ts</code> file in the <code>src/uni</code> directory, and add the following code:</p>
+<pre><code class="language-ts">import &#39;zone.js/dist/zone-node&#39;;
+import { enableProdMode } from &#39;@angular/core&#39;;
+import { AppServerModuleNgFactory } from &#39;../../aot/src/uni/app.server.ngfactory&#39;;
+import * as express from &#39;express&#39;;
+import { ngUniversalEngine } from &#39;./universal-engine&#39;;
+
+enableProdMode();
+
+const server = express();
+
+// set our angular engine as the handler for html files, so it will be used to render them.
+server.engine(&#39;html&#39;, ngUniversalEngine({
+    bootstrap: [AppServerModuleNgFactory]
+}));
+
+// set default view directory
+server.set(&#39;views&#39;, &#39;src&#39;);
+
+// handle requests for routes in the app.  ngExpressEngine does the rendering.
+server.get([&#39;/&#39;, &#39;/dashboard&#39;, &#39;/heroes&#39;, &#39;/detail/:id&#39;], (req, res) =&gt; {
+    res.render(&#39;index-aot.html&#39;, {req});
+});
+
+// handle requests for static files
+server.get([&#39;/*.js&#39;, &#39;/*.css&#39;], (req, res, next) =&gt; {
+    let fileName: string = req.originalUrl;
+    console.log(fileName);
+    let root = fileName.startsWith(&#39;/node_modules/&#39;) ? &#39;.&#39; : &#39;src&#39;;
+    res.sendFile(fileName, { root: root }, function (err) {
+        if (err) {
+            next(err);
+        }
+    });
+});
+
+// start the server
+server.listen(3200, () =&gt; {
+    console.log(&#39;listening on port 3200...&#39;);
+});
+</code></pre>
+<p>Note that the server depends on <code>AppServerModuleNgFactory</code>, which has not been built yet.  We have a compilation problem similar to that faced in <code>main-aot.ts</code>.  We solve it the same way, in <code>tsconfig-uni.json</code>.</p>
+<h2>Creating the tsconfig-uni.json <a name="creating-the-tsconfig-uni-json"></a></h2><p>The TypeScript configuration file for Universal is almost the same as for AOT.  The difference is the <code>files</code> section.  For Universal, the <code>files</code> section lists the files for the server-side app module and the web server.</p>
+<p>Create a <code>tsconfig-uni.json</code> file in the project root directory by copying your <code>tsconfig-aot.json</code> and changing the <code>files</code> section as shown below.</p>
+<pre><code class="language-json">  &quot;files&quot;: [
+    &quot;src/uni/app.server.ts&quot;,
+    &quot;src/uni/server-aot.ts&quot;
+  ],
+</code></pre>
+<p>The <code>app.server.ts</code> file appears first, so it can be compiled before the <code>server-aot.ts</code> file requires it for its compilation.</p>
+<h2>Creating the webpack.config.uni.js <a name="creating-the-webpack-config-uni-js"></a></h2><p>The Webpack configuration file for Universal is almost the same as for AOT.  There are two differences:</p>
+<ol>
+<li>The entry points</li>
+<li>The output file name</li>
+</ol>
+<blockquote>
+<p>You can share code between webpack configurations.  See the <a href="webpack.html#!#configure-webpack">Webpack Introduction</a> for more information.</p>
+</blockquote>
+<p>Create a <code>webpack.config.uni.js</code> in the project root directory by copying the <code>webpack.config.aot.js</code>.  Then make the changes described in the sections below.</p>
+<h3>The entry points <a name="the-entry-points"></a></h3><p>For Universal, we name two entry points: the app server module and the web server.  This ensures that the code for both appears in the final bundle.</p>
+<pre><code class="language-ts">    entry: {
+        main: [&#39;./src/uni/app.server.ts&#39;, &#39;./src/uni/server-aot.ts&#39;]
+    },
+</code></pre>
+<h3>The output file <a name="the-output-file"></a></h3><p>The output contains the all the code necessary to run the web server and serve the app.  Put it in <code>src/dist</code> alongside the client AOT bundle.</p>
+<pre><code class="language-ts">    output: {
+        path: &#39;src/dist&#39;,
+        filename: &#39;server.js&#39;
+    },
+</code></pre>
+<h1>Build and Serve - Universal <a name="build-and-serve-universal"></a></h1><p>Now you can build and run the Universal application.  First add the build and serve commands to the <code>scripts</code> section of your <code>package.json</code>.</p>
+<pre><code class="language-json">&quot;scripts&quot;: {
+    &quot;build:uni&quot;: &quot;webpack --config webpack.config.uni.js&quot;,
+    &quot;serve:uni&quot;: &quot;node src/dist/server.js&quot;,
+   ...
+}
+</code></pre>
+<p>Then, from the command prompt, type</p>
+<pre><code class="language-shell">npm run build:uni
+</code></pre>
+<p>to build the server bundle.  Once it is created, type</p>
+<pre><code class="language-shell">npm run serve:uni
+</code></pre>
+<p>to start the server.  The console window should say </p>
+<pre><code class="language-shell">listening on port 3200...
+</code></pre>
+<h2>Exercising Universal <a name="exercising-universal"></a></h2><p>Open a browser to <a href="http://localhost:3200/">http://localhost:3200/</a> and you should be greeted by the familiar Tour of Heroes dashboard page.  Meanwhile, the console window shows:</p>
+<pre><code class="language-shell">building: /
+/styles.css
+/node_modules/core-js/client/shim.min.js
+/node_modules/zone.js/dist/zone.min.js
+/dist/build.js
+</code></pre>
+<p>The first line shows that the server received a request for &#39;/&#39; and passed it to the Universal engine, which then built the HTML page from your Angular application.  If you reload the page for the same URL, the console will report &#39;from cache&#39; instead of &#39;building&#39;, and the server will return HTML that was previously rendered for that URL.</p>
+<p>The remaining lines in the console show static files that were requested and returned by the server.  The three .js files are needed for running the AOT version of the app.  When the .js files are loaded into the browser, the Universal-rendered page is replaced by the Angular client app.</p>
+<h3>Disabling the Client App <a name="disabling-the-client-app"></a></h3><p>To see how the Universal app behaves on its own, go to the <code>src/dist</code> directory and temporarily rename the <code>build.js</code> file to <code>build.tmp.js</code>.  Then reload the browser, and the Universal app will display without loading the Angular code.</p>
+<p>Now you can see the limitations of the Universal app.  Navigation using <code>routerLink</code> works correctly: you can go from the Dashboard to the Heroes page and back, and you can click on a hero on the Dashboard page to display the Details page.  But you cannot go to the Details from the Heroes page, because that uses a click event rather than a router link.  The Hero Search on the Dashboard page does not work, nor does saving changes.</p>
+<h3>Throttling <a name="throttling"></a></h3><p>Now rename <code>build.tmp.js</code> back to <code>build.js</code> so the app can load again.  Then open the Chrome Dev Tools and go to the Network tab, and find the <a href="https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#throttling">Network Throttling</a> dropdown.  Try 3G and other network speeds to see how long it takes for the app to load under various conditions.</p>
+<h1>Conclusion <a name="conclusion"></a></h1><p>Angular Universal can greatly improve the perceived startup performance of your app.  The slower the network, the more advantageous it becomes to have Universal display the first page to the user.</p><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--><!-- CHECK IF CURRENT PAGE IS SET, THEN SET NEXT PAGE--><!-- SET CURRENT PAGE FLAG WHEN YOU PASS IT--></article><div data-swiftype-index="false" class="main-footer"><nav class="background-midnight grid-fluid"><div class="c3 main-footer-branding"><div class="logo-inverse-large"></div></div><div class="c2"><h3 class="text-headline">RESOURCES</h3><h3 class="text-headline">资源库</h3><ul class="text-body"><!-- TODO: (ericjim) make a libraries page to showcase all angular libraries--><!--li <a href="/libraries.html">Libraries</a>--><li><p><a href="/about/">About</a></p><p><a href="/about/">关于</a></p></li><li><p><a href="/resources/#Education">Books & Training</a></p><p><a href="/resources/#Education">书籍与培训</a></p></li><li><p><a href="/resources/">Tools & Libraries</a></p><p><a href="/resources/">工具与库</a></p></li><li><p><a href="/resources/">Community</a></p><p><a href="/resources/">社区</a></p></li><li><p><a href="/presskit.html">Press Kit</a></p><p><a href="/presskit.html">宣传资料</a></p></li></ul></div><div class="c2"><h3 class="text-headline">HELP</h3><h3 class="text-headline">帮助</h3><ul class="text-body"><li><a href="http://stackoverflow.com/questions/tagged/angular2">Stack Overflow</a></li><li><a href="https://gitter.im/angular/angular">Gitter</a></li><li><a href="https://groups.google.com/forum/#!forum/angular"> Google Group</a></li><li><p><a href="https://github.com/angular/angular/issues"> Report Issues</a></p><p><a href="https://github.com/angular/angular/issues"> 报告问题</a></p></li><li><p><a class="footer-feedback" ng-click="appCtrl.openFeedback()" aria-label="Submit feedback on this page"> Site Feedback</a></p><p><a class="footer-feedback" ng-click="appCtrl.openFeedback()" aria-label="Submit feedback on this page"> 网站反馈</a></p></li></ul></div><div class="c2"><h3 class="text-headline">COMMUNITY</h3><h3 class="text-headline">社区</h3><ul class="text-body"><li><p><a href="/events.html">Events</a></p><p><a href="/events.html">会议</a></p></li><li><a href="http://www.meetup.com/topics/angularjs/">Meetups</a></li><li><a href="https://twitter.com/angular"> Twitter</a></li><li><a href="https://github.com/angular/angular"> GitHub</a></li><li><p><a href="/contribute.html"> Contribute</a></p><p><a href="/contribute.html"> 做贡献</a></p></li></ul></div><div class="c2"><h3 class="text-headline">LANGUAGES</h3><h3 class="text-headline">其它语种</h3><ul class="text-body"><li><a href="https://angular.io/">英文版</a></li></ul></div></nav><footer class="background-midnight"><small class="text-caption">Powered by Google ©2010-2017。代码授权方式：<a href="/license">MIT-style License</a>。文档授权方式：<a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>。</small><a aria-label="查看风格指南" href="/docs/ts/latest/styleguide.html" title="风格指南" md-button="md-button" class="styleguide-trigger text-snow translated-cn"><span class="icon-favorite"></span></a><p><small class="text-caption">本网站由洛阳永欣维护 &nbsp;<a href="http://www.miitbeian.gov.cn/">豫ICP备16019859号-1</a></small></p></footer></div><!-- VENDORS --><script src="/resources/js/vendor/prettify.js"></script><script src="/resources/js/vendor/lang-basic.js"></script><script src="/resources/js/vendor/lang-dart.js"></script><script src="/resources/js/vendor/lodash.js"></script><script src="/resources/js/vendor/clipboard.min.js"></script><!-- Angular Material Dependencies --><script src="/resources/js/vendor/angular.min.js"></script><script src="/resources/js/vendor/angular-animate.min.js"></script><script src="/resources/js/vendor/angular-aria.min.js"></script><script src="/resources/js/vendor/angular-material.min.js"></script><!-- Firebase -->
+<script src="/resources/js/vendor/firebase.js"></script>
+<!-- AngularFire -->
+<script src="/resources/js/vendor/angularfire.min.js"></script>
+<!-- Angular.io Site JS --><script src="/translate/cn/translate.js"></script><script src="/resources/js/site.js"></script><script src="/resources/js/util.js"></script><script src="/resources/js/controllers/app-controller.js"></script><script src="/resources/js/controllers/resources-controller.js"></script><script src="/resources/js/directives/cheatsheet.js"></script><script src="/resources/js/directives/api-list.js"></script><script src="/resources/js/directives/bio.js"></script><script src="/resources/js/directives/bold.js"></script><script src="/resources/js/directives/announcement-bar.js"></script><script src="/resources/js/directives/code.js"></script><script src="/resources/js/directives/copy.js"></script><script src="/resources/js/directives/code-tabs.js"></script><script src="/resources/js/directives/code-pane.js"></script><script src="/resources/js/directives/code-example.js"></script><script src="/resources/js/directives/if-docs.js"></script><script src="/resources/js/directives/live-example.js"></script><script src="/resources/js/directives/scroll-y-offset-element.js"></script><!-- GA --><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-80456300-1', 'auto');
+ga('send', 'pageview')
+</script><!-- SWIFTYPE --><script>(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+})(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+_st('install','VsuU7kH5Hnnj9tfyNvfK','2.0.0');</script></body></html>

@@ -1,0 +1,21 @@
+{
+  "currentEnvironment": "TypeScript",
+  "version": {
+    "raw": "4.0.0",
+    "major": 4,
+    "minor": 0,
+    "patch": 1,
+    "prerelease": [
+      "build",
+      "523"
+    ],
+    "build": "sha.66e640a",
+    "version": "4.0.1-build.523",
+    "codeName": "snapshot",
+    "isSnapshot": true,
+    "full": "4.0.1-build.523+sha.66e640a",
+    "branch": "master",
+    "commitSHA": "66e640a9483367aaad75c031e2d98d46270c43dd"
+  },
+  "sections": []
+}

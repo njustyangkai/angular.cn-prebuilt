@@ -1,0 +1,5106 @@
+[
+  
+    {
+      "title": "AUTO_STYLE",
+      "path": "animations/index/AUTO_STYLE-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimateTimings",
+      "path": "animations/index/AnimateTimings-type-alias.html",
+      "docType": "type-alias",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationAnimateMetadata",
+      "path": "animations/index/AnimationAnimateMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationEvent",
+      "path": "animations/index/AnimationEvent-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationGroupMetadata",
+      "path": "animations/index/AnimationGroupMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationKeyframesSequenceMetadata",
+      "path": "animations/index/AnimationKeyframesSequenceMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationMetadata",
+      "path": "animations/index/AnimationMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationMetadataType",
+      "path": "animations/index/AnimationMetadataType-enum.html",
+      "docType": "enum",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationPlayer",
+      "path": "animations/index/AnimationPlayer-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationSequenceMetadata",
+      "path": "animations/index/AnimationSequenceMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationStateMetadata",
+      "path": "animations/index/AnimationStateMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationStyleMetadata",
+      "path": "animations/index/AnimationStyleMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationTransitionMetadata",
+      "path": "animations/index/AnimationTransitionMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "AnimationTriggerMetadata",
+      "path": "animations/index/AnimationTriggerMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "NoopAnimationPlayer",
+      "path": "animations/index/NoopAnimationPlayer-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "animate",
+      "path": "animations/index/animate-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "group",
+      "path": "animations/index/group-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "keyframes",
+      "path": "animations/index/keyframes-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "sequence",
+      "path": "animations/index/sequence-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "state",
+      "path": "animations/index/state-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "style",
+      "path": "animations/index/style-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "transition",
+      "path": "animations/index/transition-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    },
+    
+    {
+      "title": "trigger",
+      "path": "animations/index/trigger-function.html",
+      "docType": "function",
+      "stability": "",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations"
+    }
+    
+  
+  
+    {
+      "title": "AnimationDriver",
+      "path": "animations/browser/index/AnimationDriver-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "animations/browser"
+    }
+    
+  
+  
+    {
+      "title": "APP_BASE_HREF",
+      "path": "common/index/APP_BASE_HREF-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "AsyncPipe",
+      "path": "common/index/AsyncPipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "`observable_or_promise_expression | async`",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "CommonModule",
+      "path": "common/index/CommonModule-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "CurrencyPipe",
+      "path": "common/index/CurrencyPipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "`number_expression | currency[:currencyCode[:symbolDisplay[:digitInfo]]]`",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "DatePipe",
+      "path": "common/index/DatePipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "`date_expression | date[:format]`",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "DecimalPipe",
+      "path": "common/index/DecimalPipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "`number_expression | number[:digitInfo]`  Formats a number as text. Group sizing and separator and other locale-specific configurations are based on the active locale.  where `expression` is a number:  - `digitInfo` is a `string` which has a following format: <br>     <code>{minIntegerDigits}.{minFractionDigits}-{maxFractionDigits}</code>   - `minIntegerDigits` is the minimum number of integer digits to use. Defaults to `1`.   - `minFractionDigits` is the minimum number of digits after fraction. Defaults to `0`.   - `maxFractionDigits` is the maximum number of digits after fraction. Defaults to `3`.  For more information on the acceptable range for each of these numbers and other details see your native internationalization library.  WARNING: this pipe uses the Internationalization API which is not yet available in all browsers and may require a polyfill. See <a href="/docs/js/latest/guide/browser-support.html">Browser support</a> for details.  ### Example  +makeExample('_api/common/pipes/ts/number_pipe.ts', 'NumberPipe', null) ",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "HashLocationStrategy",
+      "path": "common/index/HashLocationStrategy-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "I18nPluralPipe",
+      "path": "common/index/I18nPluralPipe-pipe.html",
+      "docType": "pipe",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "`expression | i18nPlural:mapping`",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "I18nSelectPipe",
+      "path": "common/index/I18nSelectPipe-pipe.html",
+      "docType": "pipe",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "`expression | i18nSelect:mapping`",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "JsonPipe",
+      "path": "common/index/JsonPipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "`expression | json`",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "LOCATION_INITIALIZED",
+      "path": "common/index/LOCATION_INITIALIZED-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "Location",
+      "path": "common/index/Location-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "LocationChangeEvent",
+      "path": "common/index/LocationChangeEvent-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "LocationChangeListener",
+      "path": "common/index/LocationChangeListener-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "LocationStrategy",
+      "path": "common/index/LocationStrategy-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "LowerCasePipe",
+      "path": "common/index/LowerCasePipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgClass",
+      "path": "common/index/NgClass-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "```     <some-element [ngClass]=\"'first second'\">...</some-element>      <some-element [ngClass]=\"['first', 'second']\">...</some-element>      <some-element [ngClass]=\"{'first': true, 'second': true, 'third': false}\">...</some-element>      <some-element [ngClass]=\"stringExp|arrayExp|objExp\">...</some-element>      <some-element [ngClass]=\"{'class1 class2 class3' : true}\">...</some-element> ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgComponentOutlet",
+      "path": "common/index/NgComponentOutlet-directive.html",
+      "docType": "directive",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgFor",
+      "path": "common/index/NgFor-type-alias.html",
+      "docType": "type-alias",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgForOf",
+      "path": "common/index/NgForOf-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgForOfContext",
+      "path": "common/index/NgForOfContext-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgIf",
+      "path": "common/index/NgIf-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgIfContext",
+      "path": "common/index/NgIfContext-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgLocaleLocalization",
+      "path": "common/index/NgLocaleLocalization-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgLocalization",
+      "path": "common/index/NgLocalization-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgPlural",
+      "path": "common/index/NgPlural-directive.html",
+      "docType": "directive",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "``` <some-element [ngPlural]=\"value\">   <ng-template ngPluralCase=\"=0\">there is nothing</ng-template>   <ng-template ngPluralCase=\"=1\">there is one</ng-template>   <ng-template ngPluralCase=\"few\">there are a few</ng-template> </some-element> ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgPluralCase",
+      "path": "common/index/NgPluralCase-directive.html",
+      "docType": "directive",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "``` <some-element [ngPlural]=\"value\">   <ng-template ngPluralCase=\"=0\">...</ng-template>   <ng-template ngPluralCase=\"other\">...</ng-template> </some-element> ```  See <a href='common/index/NgPlural-directive.html'><code>NgPlural</code></a> for more details and example. ",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgStyle",
+      "path": "common/index/NgStyle-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` <some-element [ngStyle]=\"{'font-style': styleExp}\">...</some-element>  <some-element [ngStyle]=\"{'max-width.px': widthExp}\">...</some-element>  <some-element [ngStyle]=\"objExp\">...</some-element> ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgSwitch",
+      "path": "common/index/NgSwitch-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "```     <container-element [ngSwitch]=\"switch_expression\">       <some-element *ngSwitchCase=\"match_expression_1\">...</some-element>       <some-element *ngSwitchCase=\"match_expression_2\">...</some-element>       <some-other-element *ngSwitchCase=\"match_expression_3\">...</some-other-element>       <ng-container *ngSwitchCase=\"match_expression_3\">         <!-- use a ng-container to group multiple root nodes -->         <inner-element></inner-element>         <inner-other-element></inner-other-element>       </ng-container>       <some-element *ngSwitchDefault>...</some-element>     </container-element> ```",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgSwitchCase",
+      "path": "common/index/NgSwitchCase-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` <container-element [ngSwitch]=\"switch_expression\">   <some-element *ngSwitchCase=\"match_expression_1\">...</some-element> </container-element> ```",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgSwitchDefault",
+      "path": "common/index/NgSwitchDefault-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` <container-element [ngSwitch]=\"switch_expression\">   <some-element *ngSwitchCase=\"match_expression_1\">...</some-element>   <some-other-element *ngSwitchDefault>...</some-other-element> </container-element> ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "NgTemplateOutlet",
+      "path": "common/index/NgTemplateOutlet-directive.html",
+      "docType": "directive",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "``` <ng-container *ngTemplateOutlet=\"templateRefExp; context: contextExp\"></ng-container> ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "PathLocationStrategy",
+      "path": "common/index/PathLocationStrategy-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "PercentPipe",
+      "path": "common/index/PercentPipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "`number_expression | percent[:digitInfo]` ",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "PlatformLocation",
+      "path": "common/index/PlatformLocation-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "PopStateEvent",
+      "path": "common/index/PopStateEvent-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "SlicePipe",
+      "path": "common/index/SlicePipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "`array_or_string_expression | slice:start[:end]`",
+      "whatItDoes": "Exists",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "TitleCasePipe",
+      "path": "common/index/TitleCasePipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "UpperCasePipe",
+      "path": "common/index/UpperCasePipe-pipe.html",
+      "docType": "pipe",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "common/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "isPlatformBrowser",
+      "path": "common/index/isPlatformBrowser-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "isPlatformServer",
+      "path": "common/index/isPlatformServer-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "isPlatformWorkerApp",
+      "path": "common/index/isPlatformWorkerApp-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    },
+    
+    {
+      "title": "isPlatformWorkerUi",
+      "path": "common/index/isPlatformWorkerUi-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common"
+    }
+    
+  
+  
+    {
+      "title": "MockLocationStrategy",
+      "path": "common/testing/index/MockLocationStrategy-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common/testing"
+    },
+    
+    {
+      "title": "SpyLocation",
+      "path": "common/testing/index/SpyLocation-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "common/testing"
+    }
+    
+  
+  
+    {
+      "title": "ANALYZE_FOR_ENTRY_COMPONENTS",
+      "path": "core/index/ANALYZE_FOR_ENTRY_COMPONENTS-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "APP_BOOTSTRAP_LISTENER",
+      "path": "core/index/APP_BOOTSTRAP_LISTENER-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "APP_ID",
+      "path": "core/index/APP_ID-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "APP_INITIALIZER",
+      "path": "core/index/APP_INITIALIZER-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AUTO_STYLE",
+      "path": "core/index/AUTO_STYLE-let.html",
+      "docType": "let",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AfterContentChecked",
+      "path": "core/index/AfterContentChecked-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "+makeExample('_api/core/ts/metadata/lifecycle_hooks_spec.ts', 'AfterContentChecked', null) ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AfterContentInit",
+      "path": "core/index/AfterContentInit-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "+makeExample('_api/core/ts/metadata/lifecycle_hooks_spec.ts', 'AfterContentInit', null) ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AfterViewChecked",
+      "path": "core/index/AfterViewChecked-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "+makeExample('_api/core/ts/metadata/lifecycle_hooks_spec.ts', 'AfterViewChecked', null) ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AfterViewInit",
+      "path": "core/index/AfterViewInit-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "+makeExample('_api/core/ts/metadata/lifecycle_hooks_spec.ts', 'AfterViewInit', null) ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationAnimateMetadata",
+      "path": "core/index/AnimationAnimateMetadata-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationEntryMetadata",
+      "path": "core/index/AnimationEntryMetadata-type-alias.html",
+      "docType": "type-alias",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationGroupMetadata",
+      "path": "core/index/AnimationGroupMetadata-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationKeyframe",
+      "path": "core/index/AnimationKeyframe-type-alias.html",
+      "docType": "type-alias",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationKeyframesSequenceMetadata",
+      "path": "core/index/AnimationKeyframesSequenceMetadata-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationMetadata",
+      "path": "core/index/AnimationMetadata-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationPlayer",
+      "path": "core/index/AnimationPlayer-type-alias.html",
+      "docType": "type-alias",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationSequenceMetadata",
+      "path": "core/index/AnimationSequenceMetadata-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationStateMetadata",
+      "path": "core/index/AnimationStateMetadata-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationStateTransitionMetadata",
+      "path": "core/index/AnimationStateTransitionMetadata-type-alias.html",
+      "docType": "type-alias",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationStyleMetadata",
+      "path": "core/index/AnimationStyleMetadata-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationStyles",
+      "path": "core/index/AnimationStyles-type-alias.html",
+      "docType": "type-alias",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationTransitionEvent",
+      "path": "core/index/AnimationTransitionEvent-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationTransitionMetadata",
+      "path": "core/index/AnimationTransitionMetadata-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "AnimationTriggerMetadata",
+      "path": "core/index/AnimationTriggerMetadata-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ApplicationInitStatus",
+      "path": "core/index/ApplicationInitStatus-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ApplicationModule",
+      "path": "core/index/ApplicationModule-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ApplicationRef",
+      "path": "core/index/ApplicationRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Attribute",
+      "path": "core/index/Attribute-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "COMPILER_OPTIONS",
+      "path": "core/index/COMPILER_OPTIONS-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "CUSTOM_ELEMENTS_SCHEMA",
+      "path": "core/index/CUSTOM_ELEMENTS_SCHEMA-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ChangeDetectionStrategy",
+      "path": "core/index/ChangeDetectionStrategy-enum.html",
+      "docType": "enum",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ChangeDetectorRef",
+      "path": "core/index/ChangeDetectorRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Class",
+      "path": "core/index/Class-function.html",
+      "docType": "function",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ClassDefinition",
+      "path": "core/index/ClassDefinition-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ClassProvider",
+      "path": "core/index/ClassProvider-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` @Injectable() class MyService {}  const provider: ClassProvider = {provide: 'someToken', useClass: MyService}; ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "CollectionChangeRecord",
+      "path": "core/index/CollectionChangeRecord-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Compiler",
+      "path": "core/index/Compiler-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "CompilerFactory",
+      "path": "core/index/CompilerFactory-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "CompilerOptions",
+      "path": "core/index/CompilerOptions-type-alias.html",
+      "docType": "type-alias",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Component",
+      "path": "core/index/Component-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ComponentFactory",
+      "path": "core/index/ComponentFactory-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ComponentFactoryResolver",
+      "path": "core/index/ComponentFactoryResolver-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ComponentRef",
+      "path": "core/index/ComponentRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ContentChild",
+      "path": "core/index/ContentChild-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ContentChildren",
+      "path": "core/index/ContentChildren-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "DebugElement",
+      "path": "core/index/DebugElement-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "DebugNode",
+      "path": "core/index/DebugNode-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "DefaultIterableDiffer",
+      "path": "core/index/DefaultIterableDiffer-class.html",
+      "docType": "class",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Directive",
+      "path": "core/index/Directive-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "DoCheck",
+      "path": "core/index/DoCheck-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "+makeExample('_api/core/ts/metadata/lifecycle_hooks_spec.ts', 'DoCheck', null) ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ElementRef",
+      "path": "core/index/ElementRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "Permitting direct access to the DOM can make your application more vulnerable to XSS attacks. Carefully review any use of `ElementRef` in your code. For more detail, see the [Security Guide](http://g.co/ng/security). ",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "EmbeddedViewRef",
+      "path": "core/index/EmbeddedViewRef-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ErrorHandler",
+      "path": "core/index/ErrorHandler-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "EventEmitter",
+      "path": "core/index/EventEmitter-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ExistingProvider",
+      "path": "core/index/ExistingProvider-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` const provider: ExistingProvider = {provide: 'someToken', useExisting: 'someOtherToken'}; ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "FactoryProvider",
+      "path": "core/index/FactoryProvider-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` function serviceFactory() { ... }  const provider: FactoryProvider = {provide: 'someToken', useFactory: serviceFactory, deps: []}; ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ForwardRefFn",
+      "path": "core/index/ForwardRefFn-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "GetTestability",
+      "path": "core/index/GetTestability-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Host",
+      "path": "core/index/Host-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "HostBinding",
+      "path": "core/index/HostBinding-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "HostListener",
+      "path": "core/index/HostListener-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Inject",
+      "path": "core/index/Inject-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Injectable",
+      "path": "core/index/Injectable-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "InjectionToken",
+      "path": "core/index/InjectionToken-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Injector",
+      "path": "core/index/Injector-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` const injector: Injector = ...; injector.get(...); ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Input",
+      "path": "core/index/Input-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "IterableChangeRecord",
+      "path": "core/index/IterableChangeRecord-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "IterableChanges",
+      "path": "core/index/IterableChanges-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "IterableDiffer",
+      "path": "core/index/IterableDiffer-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "IterableDifferFactory",
+      "path": "core/index/IterableDifferFactory-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "IterableDiffers",
+      "path": "core/index/IterableDiffers-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "KeyValueChangeRecord",
+      "path": "core/index/KeyValueChangeRecord-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "KeyValueChanges",
+      "path": "core/index/KeyValueChanges-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "KeyValueDiffer",
+      "path": "core/index/KeyValueDiffer-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "KeyValueDifferFactory",
+      "path": "core/index/KeyValueDifferFactory-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "KeyValueDiffers",
+      "path": "core/index/KeyValueDiffers-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "LOCALE_ID",
+      "path": "core/index/LOCALE_ID-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "MissingTranslationStrategy",
+      "path": "core/index/MissingTranslationStrategy-enum.html",
+      "docType": "enum",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ModuleWithComponentFactories",
+      "path": "core/index/ModuleWithComponentFactories-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ModuleWithProviders",
+      "path": "core/index/ModuleWithProviders-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "NO_ERRORS_SCHEMA",
+      "path": "core/index/NO_ERRORS_SCHEMA-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "NgIterable",
+      "path": "core/index/NgIterable-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "NgModule",
+      "path": "core/index/NgModule-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "NgModuleFactory",
+      "path": "core/index/NgModuleFactory-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "NgModuleFactoryLoader",
+      "path": "core/index/NgModuleFactoryLoader-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "NgModuleRef",
+      "path": "core/index/NgModuleRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "NgProbeToken",
+      "path": "core/index/NgProbeToken-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "NgZone",
+      "path": "core/index/NgZone-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "OnChanges",
+      "path": "core/index/OnChanges-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "+makeExample('_api/core/ts/metadata/lifecycle_hooks_spec.ts', 'OnChanges', null) ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "OnDestroy",
+      "path": "core/index/OnDestroy-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "+makeExample('_api/core/ts/metadata/lifecycle_hooks_spec.ts', 'OnDestroy', null) ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "OnInit",
+      "path": "core/index/OnInit-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "+makeExample('_api/core/ts/metadata/lifecycle_hooks_spec.ts', 'OnInit', null) ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "OpaqueToken",
+      "path": "core/index/OpaqueToken-class.html",
+      "docType": "class",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Optional",
+      "path": "core/index/Optional-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Output",
+      "path": "core/index/Output-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "PACKAGE_ROOT_URL",
+      "path": "core/index/PACKAGE_ROOT_URL-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "PLATFORM_ID",
+      "path": "core/index/PLATFORM_ID-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "PLATFORM_INITIALIZER",
+      "path": "core/index/PLATFORM_INITIALIZER-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Pipe",
+      "path": "core/index/Pipe-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "PipeTransform",
+      "path": "core/index/PipeTransform-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "PlatformRef",
+      "path": "core/index/PlatformRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Predicate",
+      "path": "core/index/Predicate-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Provider",
+      "path": "core/index/Provider-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "See <a href='core/index/TypeProvider-interface.html'><code>TypeProvider</code></a>, <a href='core/index/ValueProvider-interface.html'><code>ValueProvider</code></a>, <a href='core/index/ClassProvider-interface.html'><code>ClassProvider</code></a>, <a href='core/index/ExistingProvider-interface.html'><code>ExistingProvider</code></a>, <a href='core/index/FactoryProvider-interface.html'><code>FactoryProvider</code></a>. ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Query",
+      "path": "core/index/Query-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "QueryList",
+      "path": "core/index/QueryList-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ReflectiveInjector",
+      "path": "core/index/ReflectiveInjector-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ReflectiveKey",
+      "path": "core/index/ReflectiveKey-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "RenderComponentType",
+      "path": "core/index/RenderComponentType-class.html",
+      "docType": "class",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Renderer",
+      "path": "core/index/Renderer-class.html",
+      "docType": "class",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Renderer2",
+      "path": "core/index/Renderer2-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "RendererFactory2",
+      "path": "core/index/RendererFactory2-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "RendererStyleFlags2",
+      "path": "core/index/RendererStyleFlags2-enum.html",
+      "docType": "enum",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "RendererType2",
+      "path": "core/index/RendererType2-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ResolvedReflectiveFactory",
+      "path": "core/index/ResolvedReflectiveFactory-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ResolvedReflectiveProvider",
+      "path": "core/index/ResolvedReflectiveProvider-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "RootRenderer",
+      "path": "core/index/RootRenderer-class.html",
+      "docType": "class",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Sanitizer",
+      "path": "core/index/Sanitizer-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "SchemaMetadata",
+      "path": "core/index/SchemaMetadata-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "SecurityContext",
+      "path": "core/index/SecurityContext-enum.html",
+      "docType": "enum",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Self",
+      "path": "core/index/Self-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "SimpleChange",
+      "path": "core/index/SimpleChange-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "SimpleChanges",
+      "path": "core/index/SimpleChanges-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "SkipSelf",
+      "path": "core/index/SkipSelf-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "SystemJsNgModuleLoader",
+      "path": "core/index/SystemJsNgModuleLoader-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "SystemJsNgModuleLoaderConfig",
+      "path": "core/index/SystemJsNgModuleLoaderConfig-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "TRANSLATIONS",
+      "path": "core/index/TRANSLATIONS-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "TRANSLATIONS_FORMAT",
+      "path": "core/index/TRANSLATIONS_FORMAT-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "TemplateRef",
+      "path": "core/index/TemplateRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Testability",
+      "path": "core/index/Testability-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "TestabilityRegistry",
+      "path": "core/index/TestabilityRegistry-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "TrackByFn",
+      "path": "core/index/TrackByFn-interface.html",
+      "docType": "interface",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "TrackByFunction",
+      "path": "core/index/TrackByFunction-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Type",
+      "path": "core/index/Type-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "TypeProvider",
+      "path": "core/index/TypeProvider-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` @Injectable() class MyService {}  const provider: TypeProvider = MyService; ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "core/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ValueProvider",
+      "path": "core/index/ValueProvider-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` const provider: ValueProvider = {provide: 'someToken', useValue: 'someValue'}; ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "Version",
+      "path": "core/index/Version-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ViewChild",
+      "path": "core/index/ViewChild-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ViewChildren",
+      "path": "core/index/ViewChildren-decorator.html",
+      "docType": "decorator",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ViewContainerRef",
+      "path": "core/index/ViewContainerRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ViewEncapsulation",
+      "path": "core/index/ViewEncapsulation-enum.html",
+      "docType": "enum",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "ViewRef",
+      "path": "core/index/ViewRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "WrappedValue",
+      "path": "core/index/WrappedValue-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "WtfScopeFn",
+      "path": "core/index/WtfScopeFn-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "animate",
+      "path": "core/index/animate-function.html",
+      "docType": "function",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "asNativeElements",
+      "path": "core/index/asNativeElements-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "assertPlatform",
+      "path": "core/index/assertPlatform-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "createPlatform",
+      "path": "core/index/createPlatform-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "createPlatformFactory",
+      "path": "core/index/createPlatformFactory-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "destroyPlatform",
+      "path": "core/index/destroyPlatform-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "enableProdMode",
+      "path": "core/index/enableProdMode-function.html",
+      "docType": "function",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "forwardRef",
+      "path": "core/index/forwardRef-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "getDebugNode",
+      "path": "core/index/getDebugNode-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "getModuleFactory",
+      "path": "core/index/getModuleFactory-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "getPlatform",
+      "path": "core/index/getPlatform-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "group",
+      "path": "core/index/group-function.html",
+      "docType": "function",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "isDevMode",
+      "path": "core/index/isDevMode-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "keyframes",
+      "path": "core/index/keyframes-function.html",
+      "docType": "function",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "platformCore",
+      "path": "core/index/platformCore-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "resolveForwardRef",
+      "path": "core/index/resolveForwardRef-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "sequence",
+      "path": "core/index/sequence-function.html",
+      "docType": "function",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "setTestabilityGetter",
+      "path": "core/index/setTestabilityGetter-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "state",
+      "path": "core/index/state-function.html",
+      "docType": "function",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "style",
+      "path": "core/index/style-function.html",
+      "docType": "function",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "transition",
+      "path": "core/index/transition-function.html",
+      "docType": "function",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "trigger",
+      "path": "core/index/trigger-function.html",
+      "docType": "function",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "wtfCreateScope",
+      "path": "core/index/wtfCreateScope-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "wtfEndTimeRange",
+      "path": "core/index/wtfEndTimeRange-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "wtfLeave",
+      "path": "core/index/wtfLeave-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    },
+    
+    {
+      "title": "wtfStartTimeRange",
+      "path": "core/index/wtfStartTimeRange-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core"
+    }
+    
+  
+  
+    {
+      "title": "ComponentFixture",
+      "path": "core/testing/index/ComponentFixture-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "ComponentFixtureAutoDetect",
+      "path": "core/testing/index/ComponentFixtureAutoDetect-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "ComponentFixtureNoNgZone",
+      "path": "core/testing/index/ComponentFixtureNoNgZone-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "InjectSetupWrapper",
+      "path": "core/testing/index/InjectSetupWrapper-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "MetadataOverride",
+      "path": "core/testing/index/MetadataOverride-type-alias.html",
+      "docType": "type-alias",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "TestBed",
+      "path": "core/testing/index/TestBed-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "TestComponentRenderer",
+      "path": "core/testing/index/TestComponentRenderer-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "TestModuleMetadata",
+      "path": "core/testing/index/TestModuleMetadata-type-alias.html",
+      "docType": "type-alias",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "async",
+      "path": "core/testing/index/async-function.html",
+      "docType": "function",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "discardPeriodicTasks",
+      "path": "core/testing/index/discardPeriodicTasks-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "fakeAsync",
+      "path": "core/testing/index/fakeAsync-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "flushMicrotasks",
+      "path": "core/testing/index/flushMicrotasks-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "getTestBed",
+      "path": "core/testing/index/getTestBed-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "inject",
+      "path": "core/testing/index/inject-function.html",
+      "docType": "function",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "resetFakeAsyncZone",
+      "path": "core/testing/index/resetFakeAsyncZone-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "tick",
+      "path": "core/testing/index/tick-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    },
+    
+    {
+      "title": "withModule",
+      "path": "core/testing/index/withModule-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "core/testing"
+    }
+    
+  
+  
+    {
+      "title": "AbstractControl",
+      "path": "forms/index/AbstractControl-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "AbstractControlDirective",
+      "path": "forms/index/AbstractControlDirective-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "AbstractFormGroupDirective",
+      "path": "forms/index/AbstractFormGroupDirective-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "AsyncValidator",
+      "path": "forms/index/AsyncValidator-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "AsyncValidatorFn",
+      "path": "forms/index/AsyncValidatorFn-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "COMPOSITION_BUFFER_MODE",
+      "path": "forms/index/COMPOSITION_BUFFER_MODE-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "CheckboxControlValueAccessor",
+      "path": "forms/index/CheckboxControlValueAccessor-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "CheckboxRequiredValidator",
+      "path": "forms/index/CheckboxRequiredValidator-directive.html",
+      "docType": "directive",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "ControlContainer",
+      "path": "forms/index/ControlContainer-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "ControlValueAccessor",
+      "path": "forms/index/ControlValueAccessor-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "DefaultValueAccessor",
+      "path": "forms/index/DefaultValueAccessor-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "EmailValidator",
+      "path": "forms/index/EmailValidator-directive.html",
+      "docType": "directive",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "Form",
+      "path": "forms/index/Form-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormArray",
+      "path": "forms/index/FormArray-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "When instantiating a <a href='forms/index/FormArray-class.html'><code>FormArray</code></a>, pass in an array of child controls as the first argument.  ### Example  ``` const arr = new FormArray([   new FormControl('Nancy', Validators.minLength(2)),   new FormControl('Drew'), ]);  console.log(arr.value);   // ['Nancy', 'Drew'] console.log(arr.status);  // 'VALID' ```  You can also include array-level validators as the second arg, or array-level async validators as the third arg. These come in handy when you want to perform validation that considers the value of more than one child control.  ### Adding or removing controls  To change the controls in the array, use the `push`, `insert`, or `removeAt` methods in `FormArray` itself. These methods ensure the controls are properly tracked in the form's hierarchy. Do not modify the array of `AbstractControl`s used to instantiate the `FormArray` directly, as that will result in strange and unexpected behavior such as broken change detection.  * **npm package**: `@angular/forms` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormArrayName",
+      "path": "forms/index/FormArrayName-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "This directive is designed to be used with a parent <a href='forms/index/FormGroupDirective-directive.html'><code>FormGroupDirective</code></a> (selector: `[formGroup]`).  It accepts the string name of the nested <a href='forms/index/FormArray-class.html'><code>FormArray</code></a> you want to link, and will look for a <a href='forms/index/FormArray-class.html'><code>FormArray</code></a> registered with that name in the parent <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a> instance you passed into <a href='forms/index/FormGroupDirective-directive.html'><code>FormGroupDirective</code></a>.  Nested form arrays can come in handy when you have a group of form controls but you're not sure how many there will be. Form arrays allow you to create new form controls dynamically.  **Access the array**: You can access the associated <a href='forms/index/FormArray-class.html'><code>FormArray</code></a> using the <a href='AbstractControl.get'>AbstractControl.get</a> method on the parent <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a>. Ex: `this.form.get('cities')`.  **Get the value**: the `value` property is always synced and available on the <a href='forms/index/FormArray-class.html'><code>FormArray</code></a>. See a full list of available properties in <a href='forms/index/AbstractControl-class.html'><code>AbstractControl</code></a>.  **Set the value**: You can set an initial value for each child control when instantiating the <a href='forms/index/FormArray-class.html'><code>FormArray</code></a>, or you can set the value programmatically later using the <a href='forms/index/FormArray-class.html'><code>FormArray</code></a>'s <a href='AbstractControl.setValue'>AbstractControl.setValue</a> or <a href='AbstractControl.patchValue'>AbstractControl.patchValue</a> methods.  **Listen to value**: If you want to listen to changes in the value of the array, you can subscribe to the <a href='forms/index/FormArray-class.html'><code>FormArray</code></a>'s <a href='AbstractControl.valueChanges'>AbstractControl.valueChanges</a> event.  You can also listen to its <a href='AbstractControl.statusChanges'>AbstractControl.statusChanges</a> event to be notified when the validation status is re-calculated.  **Add new controls**: You can add new controls to the <a href='forms/index/FormArray-class.html'><code>FormArray</code></a> dynamically by calling its <a href='forms/index/FormArray-class.html#push'><code>push</code></a> method.  Ex: `this.form.get('cities').push(new FormControl());`  ### Example  +makeExample('_api/forms/ts/nestedFormArray/nested_form_array_example.ts', 'Component', null)  * **npm package**: `@angular/forms`  * **NgModule**: `ReactiveFormsModule` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormBuilder",
+      "path": "forms/index/FormBuilder-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "To use, inject `FormBuilder` into your component class. You can then call its methods directly.  +makeExample('_api/forms/ts/formBuilder/form_builder_example.ts', 'Component', null)   * **npm package**: `@angular/forms`   * **NgModule**: <a href='forms/index/ReactiveFormsModule-class.html'><code>ReactiveFormsModule</code></a> ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormControl",
+      "path": "forms/index/FormControl-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "When instantiating a <a href='forms/index/FormControl-class.html'><code>FormControl</code></a>, you can pass in an initial value as the first argument. Example:  ```ts const ctrl = new FormControl('some value'); console.log(ctrl.value);     // 'some value' ```  You can also initialize the control with a form state object on instantiation, which includes both the value and whether or not the control is disabled. You can't use the value key without the disabled key; both are required to use this way of initialization.  ```ts const ctrl = new FormControl({value: 'n/a', disabled: true}); console.log(ctrl.value);     // 'n/a' console.log(ctrl.status);   // 'DISABLED' ```  To include a sync validator (or an array of sync validators) with the control, pass it in as the second argument. Async validators are also supported, but have to be passed in separately as the third arg.  ```ts const ctrl = new FormControl('', Validators.required); console.log(ctrl.value);     // '' console.log(ctrl.status);   // 'INVALID' ```  See its superclass, <a href='forms/index/AbstractControl-class.html'><code>AbstractControl</code></a>, for more properties and methods.  * **npm package**: `@angular/forms` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormControlDirective",
+      "path": "forms/index/FormControlDirective-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "Use this directive if you'd like to create and manage a <a href='forms/index/FormControl-class.html'><code>FormControl</code></a> instance directly. Simply create a <a href='forms/index/FormControl-class.html'><code>FormControl</code></a>, save it to your component class, and pass it into the <a href='forms/index/FormControlDirective-directive.html'><code>FormControlDirective</code></a>.  This directive is designed to be used as a standalone control.  Unlike <a href='forms/index/FormControlName-directive.html'><code>FormControlName</code></a>, it does not require that your <a href='forms/index/FormControl-class.html'><code>FormControl</code></a> instance be part of any parent <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a>, and it won't be registered to any <a href='forms/index/FormGroupDirective-directive.html'><code>FormGroupDirective</code></a> that exists above it.  **Get the value**: the `value` property is always synced and available on the <a href='forms/index/FormControl-class.html'><code>FormControl</code></a> instance. See a full list of available properties in <a href='forms/index/AbstractControl-class.html'><code>AbstractControl</code></a>.  **Set the value**: You can pass in an initial value when instantiating the <a href='forms/index/FormControl-class.html'><code>FormControl</code></a>, or you can set it programmatically later using <a href='AbstractControl.setValue'>AbstractControl.setValue</a> or <a href='AbstractControl.patchValue'>AbstractControl.patchValue</a>.  **Listen to value**: If you want to listen to changes in the value of the control, you can subscribe to the <a href='AbstractControl.valueChanges'>AbstractControl.valueChanges</a> event.  You can also listen to <a href='AbstractControl.statusChanges'>AbstractControl.statusChanges</a> to be notified when the validation status is re-calculated.  ### Example  +makeExample('_api/forms/ts/simpleFormControl/simple_form_control_example.ts', 'Component', null)  * **npm package**: `@angular/forms`  * **NgModule**: `ReactiveFormsModule` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormControlName",
+      "path": "forms/index/FormControlName-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "This directive is designed to be used with a parent <a href='forms/index/FormGroupDirective-directive.html'><code>FormGroupDirective</code></a> (selector: `[formGroup]`).  It accepts the string name of the <a href='forms/index/FormControl-class.html'><code>FormControl</code></a> instance you want to link, and will look for a <a href='forms/index/FormControl-class.html'><code>FormControl</code></a> registered with that name in the closest <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a> or <a href='forms/index/FormArray-class.html'><code>FormArray</code></a> above it.  **Access the control**: You can access the <a href='forms/index/FormControl-class.html'><code>FormControl</code></a> associated with this directive by using the <a href='AbstractControl.get'>AbstractControl.get</a> method. Ex: `this.form.get('first');`  **Get value**: the `value` property is always synced and available on the <a href='forms/index/FormControl-class.html'><code>FormControl</code></a>. See a full list of available properties in <a href='forms/index/AbstractControl-class.html'><code>AbstractControl</code></a>.   **Set value**: You can set an initial value for the control when instantiating the  <a href='forms/index/FormControl-class.html'><code>FormControl</code></a>, or you can set it programmatically later using  <a href='AbstractControl.setValue'>AbstractControl.setValue</a> or <a href='AbstractControl.patchValue'>AbstractControl.patchValue</a>.  **Listen to value**: If you want to listen to changes in the value of the control, you can subscribe to the <a href='AbstractControl.valueChanges'>AbstractControl.valueChanges</a> event.  You can also listen to <a href='AbstractControl.statusChanges'>AbstractControl.statusChanges</a> to be notified when the validation status is re-calculated.  ### Example  In this example, we create form controls for first name and last name.  +makeExample('_api/forms/ts/simpleFormGroup/simple_form_group_example.ts', 'Component', null)  To see `formControlName` examples with different form control types, see:  * Radio buttons: <a href='forms/index/RadioControlValueAccessor-directive.html'><code>RadioControlValueAccessor</code></a> * Selects: <a href='forms/index/SelectControlValueAccessor-directive.html'><code>SelectControlValueAccessor</code></a>  **npm package**: `@angular/forms`  **NgModule**: <a href='forms/index/ReactiveFormsModule-class.html'><code>ReactiveFormsModule</code></a> ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormGroup",
+      "path": "forms/index/FormGroup-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "When instantiating a <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a>, pass in a collection of child controls as the first argument. The key for each child will be the name under which it is registered.  ### Example  ``` const form = new FormGroup({   first: new FormControl('Nancy', Validators.minLength(2)),   last: new FormControl('Drew'), });  console.log(form.value);   // {first: 'Nancy', last; 'Drew'} console.log(form.status);  // 'VALID' ```  You can also include group-level validators as the second arg, or group-level async validators as the third arg. These come in handy when you want to perform validation that considers the value of more than one child control.  ### Example  ``` const form = new FormGroup({   password: new FormControl('', Validators.minLength(2)),   passwordConfirm: new FormControl('', Validators.minLength(2)), }, passwordMatchValidator);   function passwordMatchValidator(g: FormGroup) {    return g.get('password').value === g.get('passwordConfirm').value       ? null : {'mismatch': true}; } ```  * **npm package**: `@angular/forms` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormGroupDirective",
+      "path": "forms/index/FormGroupDirective-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "This directive accepts an existing <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a> instance. It will then use this <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a> instance to match any child <a href='forms/index/FormControl-class.html'><code>FormControl</code></a>, <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a>, and <a href='forms/index/FormArray-class.html'><code>FormArray</code></a> instances to child <a href='forms/index/FormControlName-directive.html'><code>FormControlName</code></a>, <a href='forms/index/FormGroupName-directive.html'><code>FormGroupName</code></a>, and <a href='forms/index/FormArrayName-directive.html'><code>FormArrayName</code></a> directives.  **Set value**: You can set the form's initial value when instantiating the <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a>, or you can set it programmatically later using the <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a>'s <a href='AbstractControl.setValue'>AbstractControl.setValue</a> or <a href='AbstractControl.patchValue'>AbstractControl.patchValue</a> methods.  **Listen to value**: If you want to listen to changes in the value of the form, you can subscribe to the <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a>'s <a href='AbstractControl.valueChanges'>AbstractControl.valueChanges</a> event.  You can also listen to its <a href='AbstractControl.statusChanges'>AbstractControl.statusChanges</a> event to be notified when the validation status is re-calculated.  Furthermore, you can listen to the directive's `ngSubmit` event to be notified when the user has triggered a form submission. The `ngSubmit` event will be emitted with the original form submission event.  ### Example  In this example, we create form controls for first name and last name.  +makeExample('_api/forms/ts/simpleFormGroup/simple_form_group_example.ts', 'Component', null)  **npm package**: `@angular/forms`  **NgModule**: <a href='forms/index/ReactiveFormsModule-class.html'><code>ReactiveFormsModule</code></a> ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormGroupName",
+      "path": "forms/index/FormGroupName-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "This directive can only be used with a parent <a href='forms/index/FormGroupDirective-directive.html'><code>FormGroupDirective</code></a> (selector: `[formGroup]`).  It accepts the string name of the nested <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a> you want to link, and will look for a <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a> registered with that name in the parent <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a> instance you passed into <a href='forms/index/FormGroupDirective-directive.html'><code>FormGroupDirective</code></a>.  Nested form groups can come in handy when you want to validate a sub-group of a form separately from the rest or when you'd like to group the values of certain controls into their own nested object.  **Access the group**: You can access the associated <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a> using the <a href='AbstractControl.get'>AbstractControl.get</a> method. Ex: `this.form.get('name')`.  You can also access individual controls within the group using dot syntax. Ex: `this.form.get('name.first')`  **Get the value**: the `value` property is always synced and available on the <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a>. See a full list of available properties in <a href='forms/index/AbstractControl-class.html'><code>AbstractControl</code></a>.  **Set the value**: You can set an initial value for each child control when instantiating the <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a>, or you can set it programmatically later using <a href='AbstractControl.setValue'>AbstractControl.setValue</a> or <a href='AbstractControl.patchValue'>AbstractControl.patchValue</a>.  **Listen to value**: If you want to listen to changes in the value of the group, you can subscribe to the <a href='AbstractControl.valueChanges'>AbstractControl.valueChanges</a> event.  You can also listen to <a href='AbstractControl.statusChanges'>AbstractControl.statusChanges</a> to be notified when the validation status is re-calculated.  ### Example  +makeExample('_api/forms/ts/nestedFormGroup/nested_form_group_example.ts', 'Component', null)  * **npm package**: `@angular/forms`  * **NgModule**: `ReactiveFormsModule` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "FormsModule",
+      "path": "forms/index/FormsModule-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "MaxLengthValidator",
+      "path": "forms/index/MaxLengthValidator-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "MinLengthValidator",
+      "path": "forms/index/MinLengthValidator-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NG_ASYNC_VALIDATORS",
+      "path": "forms/index/NG_ASYNC_VALIDATORS-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NG_VALIDATORS",
+      "path": "forms/index/NG_VALIDATORS-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NG_VALUE_ACCESSOR",
+      "path": "forms/index/NG_VALUE_ACCESSOR-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NgControl",
+      "path": "forms/index/NgControl-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NgControlStatus",
+      "path": "forms/index/NgControlStatus-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NgControlStatusGroup",
+      "path": "forms/index/NgControlStatusGroup-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NgForm",
+      "path": "forms/index/NgForm-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "As soon as you import the `FormsModule`, this directive becomes active by default on all `<form>` tags.  You don't need to add a special selector.  You can export the directive into a local template variable using `ngForm` as the key (ex: `#myForm=\"ngForm\"`). This is optional, but useful.  Many properties from the underlying <a href='forms/index/FormGroup-class.html'><code>FormGroup</code></a> instance are duplicated on the directive itself, so a reference to it will give you access to the aggregate value and validity status of the form, as well as user interaction properties like `dirty` and `touched`.  To register child controls with the form, you'll want to use <a href='forms/index/NgModel-directive.html'><code>NgModel</code></a> with a `name` attribute.  You can also use <a href='forms/index/NgModelGroup-directive.html'><code>NgModelGroup</code></a> if you'd like to create sub-groups within the form.  You can listen to the directive's `ngSubmit` event to be notified when the user has triggered a form submission. The `ngSubmit` event will be emitted with the original form submission event.  +makeExample('_api/forms/ts/simpleForm/simple_form_example.ts', 'Component', null)  * **npm package**: `@angular/forms`  * **NgModule**: `FormsModule` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NgModel",
+      "path": "forms/index/NgModel-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "This directive can be used by itself or as part of a larger form. All you need is the `ngModel` selector to activate it.  It accepts a domain model as an optional <a href='@Input'>@Input</a>. If you have a one-way binding to `ngModel` with `[]` syntax, changing the value of the domain model in the component class will set the value in the view. If you have a two-way binding with `[()]` syntax (also known as 'banana-box syntax'), the value in the UI will always be synced back to the domain model in your class as well.  If you wish to inspect the properties of the associated <a href='forms/index/FormControl-class.html'><code>FormControl</code></a> (like validity state), you can also export the directive into a local template variable using `ngModel` as the key (ex: `#myVar=\"ngModel\"`). You can then access the control using the directive's `control` property, but most properties you'll need (like `valid` and `dirty`) will fall through to the control anyway, so you can access them directly. You can see a full list of properties directly available in <a href='forms/index/AbstractControlDirective-class.html'><code>AbstractControlDirective</code></a>.  The following is an example of a simple standalone control using `ngModel`:  +makeExample('_api/forms/ts/simpleNgModel/simple_ng_model_example.ts', 'Component', null)  When using the `ngModel` within `<form>` tags, you'll also need to supply a `name` attribute so that the control can be registered with the parent form under that name.  It's worth noting that in the context of a parent form, you often can skip one-way or two-way binding because the parent form will sync the value for you. You can access its properties by exporting it into a local template variable using `ngForm` (ex: `#f=\"ngForm\"`). Then you can pass it where it needs to go on submit.  If you do need to populate initial values into your form, using a one-way binding for `ngModel` tends to be sufficient as long as you use the exported form's value rather than the domain model's value on submit.  Take a look at an example of using `ngModel` within a form:  +makeExample('_api/forms/ts/simpleForm/simple_form_example.ts', 'Component', null)  To see `ngModel` examples with different form control types, see:  * Radio buttons: <a href='forms/index/RadioControlValueAccessor-directive.html'><code>RadioControlValueAccessor</code></a> * Selects: <a href='forms/index/SelectControlValueAccessor-directive.html'><code>SelectControlValueAccessor</code></a>  **npm package**: `@angular/forms`  **NgModule**: `FormsModule` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NgModelGroup",
+      "path": "forms/index/NgModelGroup-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "This directive can only be used as a child of <a href='forms/index/NgForm-directive.html'><code>NgForm</code></a> (or in other words, within `<form>` tags).  Use this directive if you'd like to create a sub-group within a form. This can come in handy if you want to validate a sub-group of your form separately from the rest of your form, or if some values in your domain model make more sense to consume together in a nested object.  Pass in the name you'd like this sub-group to have and it will become the key for the sub-group in the form's full value. You can also export the directive into a local template variable using `ngModelGroup` (ex: `#myGroup=\"ngModelGroup\"`).  +makeExample('_api/forms/ts/ngModelGroup/ng_model_group_example.ts', 'Component', null)  * **npm package**: `@angular/forms`  * **NgModule**: `FormsModule` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "NgSelectOption",
+      "path": "forms/index/NgSelectOption-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "See docs for <a href='forms/index/SelectControlValueAccessor-directive.html'><code>SelectControlValueAccessor</code></a> for usage examples. ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "PatternValidator",
+      "path": "forms/index/PatternValidator-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "RadioControlValueAccessor",
+      "path": "forms/index/RadioControlValueAccessor-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "If you have imported the <a href='forms/index/FormsModule-class.html'><code>FormsModule</code></a> or the <a href='forms/index/ReactiveFormsModule-class.html'><code>ReactiveFormsModule</code></a>, this value accessor will be active on any radio control that has a form directive. You do **not** need to add a special selector to activate it.  ### How to use radio buttons with form directives  To use radio buttons in a template-driven form, you'll want to ensure that radio buttons in the same group have the same `name` attribute.  Radio buttons with different `name` attributes do not affect each other.  +makeExample('_api/forms/ts/radioButtons/radio_button_example.ts', 'TemplateDriven', null)  When using radio buttons in a reactive form, radio buttons in the same group should have the same `formControlName`. You can also add a `name` attribute, but it's optional.  +makeExample('_api/forms/ts/reactiveRadioButtons/reactive_radio_button_example.ts', 'Reactive', null)   * **npm package**: `@angular/forms` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "ReactiveFormsModule",
+      "path": "forms/index/ReactiveFormsModule-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "RequiredValidator",
+      "path": "forms/index/RequiredValidator-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "SelectControlValueAccessor",
+      "path": "forms/index/SelectControlValueAccessor-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "If you have imported the <a href='forms/index/FormsModule-class.html'><code>FormsModule</code></a> or the <a href='forms/index/ReactiveFormsModule-class.html'><code>ReactiveFormsModule</code></a>, this value accessor will be active on any select control that has a form directive. You do **not** need to add a special selector to activate it.  ### How to use select controls with form directives  To use a select in a template-driven form, simply add an `ngModel` and a `name` attribute to the main `<select>` tag.  If your option values are simple strings, you can bind to the normal `value` property on the option.  If your option values happen to be objects (and you'd like to save the selection in your form as an object), use `ngValue` instead:  +makeExample('_api/forms/ts/selectControl/select_control_example.ts', 'Component', null)  In reactive forms, you'll also want to add your form directive (`formControlName` or `formControl`) on the main `<select>` tag. Like in the former example, you have the choice of binding to the  `value` or `ngValue` property on the select's options.  +makeExample('_api/forms/ts/reactiveSelectControl/reactive_select_control_example.ts', 'Component', null)  ### Caveat: Option selection  Angular uses object identity to select option. It's possible for the identities of items to change while the data does not. This can happen, for example, if the items are produced from an RPC to the server, and that RPC is re-run. Even if the data hasn't changed, the second response will produce objects with different identities.  To customize the default option comparison algorithm, `<select>` supports `compareWith` input. `compareWith` takes a **function** which has two arguments: `option1` and `option2`. If `compareWith` is given, Angular selects option by the return value of the function.  #### Syntax  ``` <select [compareWith]=\"compareFn\"  [(ngModel)]=\"selectedCountries\">     <option *ngFor=\"let country of countries\" [ngValue]=\"country\">         {{country.name}}     </option> </select>  compareFn(c1: Country, c2: Country): boolean {     return c1 && c2 ? c1.id === c2.id : c1 === c2; } ```  Note: We listen to the 'change' event because 'input' events aren't fired for selects in Firefox and IE: https://bugzilla.mozilla.org/show_bug.cgi?id=1024350 https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/4660045/  * **npm package**: `@angular/forms` ",
+      "whatItDoes": "Exists",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "SelectMultipleControlValueAccessor",
+      "path": "forms/index/SelectMultipleControlValueAccessor-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "forms/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "ValidationErrors",
+      "path": "forms/index/ValidationErrors-type-alias.html",
+      "docType": "type-alias",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "Validator",
+      "path": "forms/index/Validator-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "ValidatorFn",
+      "path": "forms/index/ValidatorFn-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    },
+    
+    {
+      "title": "Validators",
+      "path": "forms/index/Validators-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "forms"
+    }
+    
+  
+  
+    {
+      "title": "BaseRequestOptions",
+      "path": "http/index/BaseRequestOptions-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "BaseResponseOptions",
+      "path": "http/index/BaseResponseOptions-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "BrowserXhr",
+      "path": "http/index/BrowserXhr-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "Connection",
+      "path": "http/index/Connection-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "ConnectionBackend",
+      "path": "http/index/ConnectionBackend-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "CookieXSRFStrategy",
+      "path": "http/index/CookieXSRFStrategy-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "Headers",
+      "path": "http/index/Headers-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "Http",
+      "path": "http/index/Http-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "HttpModule",
+      "path": "http/index/HttpModule-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "JSONPBackend",
+      "path": "http/index/JSONPBackend-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "JSONPConnection",
+      "path": "http/index/JSONPConnection-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "Jsonp",
+      "path": "http/index/Jsonp-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "JsonpModule",
+      "path": "http/index/JsonpModule-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "QueryEncoder",
+      "path": "http/index/QueryEncoder-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "ReadyState",
+      "path": "http/index/ReadyState-enum.html",
+      "docType": "enum",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "Request",
+      "path": "http/index/Request-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "RequestMethod",
+      "path": "http/index/RequestMethod-enum.html",
+      "docType": "enum",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "RequestOptions",
+      "path": "http/index/RequestOptions-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "RequestOptionsArgs",
+      "path": "http/index/RequestOptionsArgs-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "Response",
+      "path": "http/index/Response-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "ResponseContentType",
+      "path": "http/index/ResponseContentType-enum.html",
+      "docType": "enum",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "ResponseOptions",
+      "path": "http/index/ResponseOptions-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "ResponseOptionsArgs",
+      "path": "http/index/ResponseOptionsArgs-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "ResponseType",
+      "path": "http/index/ResponseType-enum.html",
+      "docType": "enum",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "URLSearchParams",
+      "path": "http/index/URLSearchParams-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "http/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "XHRBackend",
+      "path": "http/index/XHRBackend-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "XHRConnection",
+      "path": "http/index/XHRConnection-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    },
+    
+    {
+      "title": "XSRFStrategy",
+      "path": "http/index/XSRFStrategy-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http"
+    }
+    
+  
+  
+    {
+      "title": "MockBackend",
+      "path": "http/testing/index/MockBackend-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http/testing"
+    },
+    
+    {
+      "title": "MockConnection",
+      "path": "http/testing/index/MockConnection-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "http/testing"
+    }
+    
+  
+  
+    {
+      "title": "BrowserModule",
+      "path": "platform-browser/index/BrowserModule-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "By",
+      "path": "platform-browser/index/By-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "DOCUMENT",
+      "path": "platform-browser/index/DOCUMENT-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "DomSanitizer",
+      "path": "platform-browser/index/DomSanitizer-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "Calling any of the `bypassSecurityTrust...` APIs disables Angular's built-in sanitization for the value passed in. Carefully check and audit all values and code paths going into this call. Make sure any user data is appropriately escaped for this security context. For more detail, see the [Security Guide](http://g.co/ng/security). ",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "EVENT_MANAGER_PLUGINS",
+      "path": "platform-browser/index/EVENT_MANAGER_PLUGINS-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "EventManager",
+      "path": "platform-browser/index/EventManager-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "HAMMER_GESTURE_CONFIG",
+      "path": "platform-browser/index/HAMMER_GESTURE_CONFIG-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "HammerGestureConfig",
+      "path": "platform-browser/index/HammerGestureConfig-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "Meta",
+      "path": "platform-browser/index/Meta-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "MetaDefinition",
+      "path": "platform-browser/index/MetaDefinition-type-alias.html",
+      "docType": "type-alias",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "NgProbeToken",
+      "path": "platform-browser/index/NgProbeToken-class.html",
+      "docType": "class",
+      "stability": "deprecated",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "SafeHtml",
+      "path": "platform-browser/index/SafeHtml-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "SafeResourceUrl",
+      "path": "platform-browser/index/SafeResourceUrl-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "SafeScript",
+      "path": "platform-browser/index/SafeScript-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "SafeStyle",
+      "path": "platform-browser/index/SafeStyle-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "SafeUrl",
+      "path": "platform-browser/index/SafeUrl-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "Title",
+      "path": "platform-browser/index/Title-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "platform-browser/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "disableDebugTools",
+      "path": "platform-browser/index/disableDebugTools-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "enableDebugTools",
+      "path": "platform-browser/index/enableDebugTools-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    },
+    
+    {
+      "title": "platformBrowser",
+      "path": "platform-browser/index/platformBrowser-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser"
+    }
+    
+  
+  
+    {
+      "title": "BrowserAnimationsModule",
+      "path": "platform-browser/animations/index/BrowserAnimationsModule-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser/animations"
+    },
+    
+    {
+      "title": "NoopAnimationsModule",
+      "path": "platform-browser/animations/index/NoopAnimationsModule-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser/animations"
+    }
+    
+  
+  
+    {
+      "title": "BrowserTestingModule",
+      "path": "platform-browser/testing/index/BrowserTestingModule-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser/testing"
+    },
+    
+    {
+      "title": "platformBrowserTesting",
+      "path": "platform-browser/testing/index/platformBrowserTesting-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser/testing"
+    }
+    
+  
+  
+    {
+      "title": "RESOURCE_CACHE_PROVIDER",
+      "path": "platform-browser-dynamic/index/RESOURCE_CACHE_PROVIDER-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser-dynamic"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "platform-browser-dynamic/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser-dynamic"
+    },
+    
+    {
+      "title": "platformBrowserDynamic",
+      "path": "platform-browser-dynamic/index/platformBrowserDynamic-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser-dynamic"
+    }
+    
+  
+  
+    {
+      "title": "BrowserDynamicTestingModule",
+      "path": "platform-browser-dynamic/testing/index/BrowserDynamicTestingModule-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser-dynamic/testing"
+    },
+    
+    {
+      "title": "platformBrowserDynamicTesting",
+      "path": "platform-browser-dynamic/testing/index/platformBrowserDynamicTesting-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-browser-dynamic/testing"
+    }
+    
+  
+  
+    {
+      "title": "INITIAL_CONFIG",
+      "path": "platform-server/index/INITIAL_CONFIG-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server"
+    },
+    
+    {
+      "title": "PlatformConfig",
+      "path": "platform-server/index/PlatformConfig-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server"
+    },
+    
+    {
+      "title": "PlatformState",
+      "path": "platform-server/index/PlatformState-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server"
+    },
+    
+    {
+      "title": "ServerModule",
+      "path": "platform-server/index/ServerModule-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "platform-server/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server"
+    },
+    
+    {
+      "title": "platformDynamicServer",
+      "path": "platform-server/index/platformDynamicServer-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server"
+    },
+    
+    {
+      "title": "platformServer",
+      "path": "platform-server/index/platformServer-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server"
+    },
+    
+    {
+      "title": "renderModule",
+      "path": "platform-server/index/renderModule-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server"
+    },
+    
+    {
+      "title": "renderModuleFactory",
+      "path": "platform-server/index/renderModuleFactory-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server"
+    }
+    
+  
+  
+    {
+      "title": "ServerTestingModule",
+      "path": "platform-server/testing/index/ServerTestingModule-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server/testing"
+    },
+    
+    {
+      "title": "platformServerTesting",
+      "path": "platform-server/testing/index/platformServerTesting-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-server/testing"
+    }
+    
+  
+  
+    {
+      "title": "ClientMessageBroker",
+      "path": "platform-webworker/index/ClientMessageBroker-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "ClientMessageBrokerFactory",
+      "path": "platform-webworker/index/ClientMessageBrokerFactory-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "FnArg",
+      "path": "platform-webworker/index/FnArg-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "MessageBus",
+      "path": "platform-webworker/index/MessageBus-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "MessageBusSink",
+      "path": "platform-webworker/index/MessageBusSink-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "MessageBusSource",
+      "path": "platform-webworker/index/MessageBusSource-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "PRIMITIVE",
+      "path": "platform-webworker/index/PRIMITIVE-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "ReceivedMessage",
+      "path": "platform-webworker/index/ReceivedMessage-interface.html",
+      "docType": "interface",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "SerializerTypes",
+      "path": "platform-webworker/index/SerializerTypes-enum.html",
+      "docType": "enum",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "ServiceMessageBroker",
+      "path": "platform-webworker/index/ServiceMessageBroker-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "ServiceMessageBrokerFactory",
+      "path": "platform-webworker/index/ServiceMessageBrokerFactory-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "UiArguments",
+      "path": "platform-webworker/index/UiArguments-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "platform-webworker/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "WORKER_APP_LOCATION_PROVIDERS",
+      "path": "platform-webworker/index/WORKER_APP_LOCATION_PROVIDERS-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "WORKER_UI_LOCATION_PROVIDERS",
+      "path": "platform-webworker/index/WORKER_UI_LOCATION_PROVIDERS-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "WorkerAppModule",
+      "path": "platform-webworker/index/WorkerAppModule-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "bootstrapWorkerUi",
+      "path": "platform-webworker/index/bootstrapWorkerUi-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "platformWorkerApp",
+      "path": "platform-webworker/index/platformWorkerApp-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    },
+    
+    {
+      "title": "platformWorkerUi",
+      "path": "platform-webworker/index/platformWorkerUi-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker"
+    }
+    
+  
+  
+    {
+      "title": "VERSION",
+      "path": "platform-webworker-dynamic/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker-dynamic"
+    },
+    
+    {
+      "title": "platformWorkerAppDynamic",
+      "path": "platform-webworker-dynamic/index/platformWorkerAppDynamic-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "platform-webworker-dynamic"
+    }
+    
+  
+  
+    {
+      "title": "ActivatedRoute",
+      "path": "router/index/ActivatedRoute-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` @Component({...}) class MyComponent {   constructor(route: ActivatedRoute) {     const id: Observable<string> = route.params.map(p => p.id);     const url: Observable<string> = route.url.map(segments => segments.join(''));     // route.data includes both `data` and `resolve`     const user = route.data.map(d => d.user);   } } ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "ActivatedRouteSnapshot",
+      "path": "router/index/ActivatedRouteSnapshot-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` @Component({templateUrl:'./my-component.html'}) class MyComponent {   constructor(route: ActivatedRoute) {     const id: string = route.snapshot.params.id;     const url: string = route.snapshot.url.join('');     const user = route.snapshot.data.user;   } } ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "CanActivate",
+      "path": "router/index/CanActivate-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` class UserToken {} class Permissions {   canActivate(user: UserToken, id: string): boolean {     return true;   } }  @Injectable() class CanActivateTeam implements CanActivate {   constructor(private permissions: Permissions, private currentUser: UserToken) {}    canActivate(     route: ActivatedRouteSnapshot,     state: RouterStateSnapshot   ): Observable<boolean>|Promise<boolean>|boolean {     return this.permissions.canActivate(this.currentUser, route.params.id);   } }  @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'team/:id',         component: TeamCmp,         canActivate: [CanActivateTeam]       }     ])   ],   providers: [CanActivateTeam, UserToken, Permissions] }) class AppModule {} ```  You can alternatively provide a function with the `canActivate` signature:  ``` @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'team/:id',         component: TeamCmp,         canActivate: ['canActivateTeam']       }     ])   ],   providers: [     {       provide: 'canActivateTeam',       useValue: (route: ActivatedRouteSnapshot, state: RouterStateSnapshot) => true     }   ] }) class AppModule {} ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "CanActivateChild",
+      "path": "router/index/CanActivateChild-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` class UserToken {} class Permissions {   canActivate(user: UserToken, id: string): boolean {     return true;   } }  @Injectable() class CanActivateTeam implements CanActivateChild {   constructor(private permissions: Permissions, private currentUser: UserToken) {}    canActivateChild(     route: ActivatedRouteSnapshot,     state: RouterStateSnapshot   ): Observable<boolean>|Promise<boolean>|boolean {     return this.permissions.canActivate(this.currentUser, route.params.id);   } }  @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'root',         canActivateChild: [CanActivateTeam],         children: [           {              path: 'team/:id',              component: Team           }         ]       }     ])   ],   providers: [CanActivateTeam, UserToken, Permissions] }) class AppModule {} ```  You can alternatively provide a function with the `canActivateChild` signature:  ``` @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'root',         canActivateChild: ['canActivateTeam'],         children: [           {             path: 'team/:id',             component: Team           }         ]       }     ])   ],   providers: [     {       provide: 'canActivateTeam',       useValue: (route: ActivatedRouteSnapshot, state: RouterStateSnapshot) => true     }   ] }) class AppModule {} ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "CanDeactivate",
+      "path": "router/index/CanDeactivate-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` class UserToken {} class Permissions {   canDeactivate(user: UserToken, id: string): boolean {     return true;   } }  @Injectable() class CanDeactivateTeam implements CanDeactivate<TeamComponent> {   constructor(private permissions: Permissions, private currentUser: UserToken) {}    canDeactivate(     component: TeamComponent,     currentRoute: ActivatedRouteSnapshot,     currentState: RouterStateSnapshot,     nextState: RouterStateSnapshot   ): Observable<boolean>|Promise<boolean>|boolean {     return this.permissions.canDeactivate(this.currentUser, route.params.id);   } }  @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'team/:id',         component: TeamCmp,         canDeactivate: [CanDeactivateTeam]       }     ])   ],   providers: [CanDeactivateTeam, UserToken, Permissions] }) class AppModule {} ```  You can alternatively provide a function with the `canDeactivate` signature:  ``` @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'team/:id',         component: TeamCmp,         canDeactivate: ['canDeactivateTeam']       }     ])   ],   providers: [     {       provide: 'canDeactivateTeam',       useValue: (component: TeamComponent, currentRoute: ActivatedRouteSnapshot, currentState: RouterStateSnapshot, nextState: RouterStateSnapshot) => true     }   ] }) class AppModule {} ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "CanLoad",
+      "path": "router/index/CanLoad-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` class UserToken {} class Permissions {   canLoadChildren(user: UserToken, id: string): boolean {     return true;   } }  @Injectable() class CanLoadTeamSection implements CanLoad {   constructor(private permissions: Permissions, private currentUser: UserToken) {}    canLoad(route: Route): Observable<boolean>|Promise<boolean>|boolean {     return this.permissions.canLoadChildren(this.currentUser, route);   } }  @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'team/:id',         component: TeamCmp,         loadChildren: 'team.js',         canLoad: [CanLoadTeamSection]       }     ])   ],   providers: [CanLoadTeamSection, UserToken, Permissions] }) class AppModule {} ```  You can alternatively provide a function with the `canLoad` signature:  ``` @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'team/:id',         component: TeamCmp,         loadChildren: 'team.js',         canLoad: ['canLoadTeamSection']       }     ])   ],   providers: [     {       provide: 'canLoadTeamSection',       useValue: (route: Route) => true     }   ] }) class AppModule {} ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "Data",
+      "path": "router/index/Data-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "DefaultUrlSerializer",
+      "path": "router/index/DefaultUrlSerializer-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "DetachedRouteHandle",
+      "path": "router/index/DetachedRouteHandle-type-alias.html",
+      "docType": "type-alias",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "Event",
+      "path": "router/index/Event-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "ExtraOptions",
+      "path": "router/index/ExtraOptions-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "LoadChildren",
+      "path": "router/index/LoadChildren-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "LoadChildrenCallback",
+      "path": "router/index/LoadChildrenCallback-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "NavigationCancel",
+      "path": "router/index/NavigationCancel-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "NavigationEnd",
+      "path": "router/index/NavigationEnd-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "NavigationError",
+      "path": "router/index/NavigationError-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "NavigationExtras",
+      "path": "router/index/NavigationExtras-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "NavigationStart",
+      "path": "router/index/NavigationStart-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "NoPreloading",
+      "path": "router/index/NoPreloading-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "PRIMARY_OUTLET",
+      "path": "router/index/PRIMARY_OUTLET-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "ParamMap",
+      "path": "router/index/ParamMap-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "Params",
+      "path": "router/index/Params-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "PreloadAllModules",
+      "path": "router/index/PreloadAllModules-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "``` RouteModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules}) ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "PreloadingStrategy",
+      "path": "router/index/PreloadingStrategy-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "ROUTER_CONFIGURATION",
+      "path": "router/index/ROUTER_CONFIGURATION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "ROUTER_INITIALIZER",
+      "path": "router/index/ROUTER_INITIALIZER-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "ROUTES",
+      "path": "router/index/ROUTES-let.html",
+      "docType": "let",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "Resolve",
+      "path": "router/index/Resolve-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` class Backend {   fetchTeam(id: string) {     return 'someTeam';   } }  @Injectable() class TeamResolver implements Resolve<Team> {   constructor(private backend: Backend) {}    resolve(     route: ActivatedRouteSnapshot,     state: RouterStateSnapshot   ): Observable<any>|Promise<any>|any {     return this.backend.fetchTeam(route.params.id);   } }  @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'team/:id',         component: TeamCmp,         resolve: {           team: TeamResolver         }       }     ])   ],   providers: [TeamResolver] }) class AppModule {} ```  You can alternatively provide a function with the `resolve` signature:  ``` @NgModule({   imports: [     RouterModule.forRoot([       {         path: 'team/:id',         component: TeamCmp,         resolve: {           team: 'teamResolver'         }       }     ])   ],   providers: [     {       provide: 'teamResolver',       useValue: (route: ActivatedRouteSnapshot, state: RouterStateSnapshot) => 'team'     }   ] }) class AppModule {} ```",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "ResolveData",
+      "path": "router/index/ResolveData-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "Route",
+      "path": "router/index/Route-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouteConfigLoadEnd",
+      "path": "router/index/RouteConfigLoadEnd-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouteConfigLoadStart",
+      "path": "router/index/RouteConfigLoadStart-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouteReuseStrategy",
+      "path": "router/index/RouteReuseStrategy-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "Router",
+      "path": "router/index/Router-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouterLink",
+      "path": "router/index/RouterLink-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "Consider the following route configuration: `[{ path: 'user/:name', component: UserCmp }]`  When linking to this `user/:name` route, you can write: `<a routerLink='/user/bob'>link to user component</a>` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouterLinkActive",
+      "path": "router/index/RouterLinkActive-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` <a routerLink=\"/user/bob\" routerLinkActive=\"active-link\">Bob</a> ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouterLinkWithHref",
+      "path": "router/index/RouterLinkWithHref-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouterModule",
+      "path": "router/index/RouterModule-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "RouterModule can be imported multiple times: once per lazily-loaded bundle. Since the router deals with a global shared resource--location, we cannot have more than one router service active.  That is why there are two ways to create the module: `RouterModule.forRoot` and `RouterModule.forChild`.  * `forRoot` creates a module that contains all the directives, the given routes, and the router   service itself. * `forChild` creates a module that contains all the directives and the given routes, but does not   include the router service.  When registered at the root, the module should be used as follows  ``` @NgModule({   imports: [RouterModule.forRoot(ROUTES)] }) class MyNgModule {} ```  For submodules and lazy loaded submodules the module should be used as follows:  ``` @NgModule({   imports: [RouterModule.forChild(ROUTES)] }) class MyNgModule {} ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouterOutlet",
+      "path": "router/index/RouterOutlet-directive.html",
+      "docType": "directive",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` <router-outlet></router-outlet> <router-outlet name='left'></router-outlet> <router-outlet name='right'></router-outlet> ```  A router outlet will emit an activate event any time a new component is being instantiated, and a deactivate event when it is being destroyed.  ``` <router-outlet   (activate)='onActivate($event)'   (deactivate)='onDeactivate($event)'></router-outlet> ```",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouterOutletMap",
+      "path": "router/index/RouterOutletMap-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouterPreloader",
+      "path": "router/index/RouterPreloader-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouterState",
+      "path": "router/index/RouterState-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` @Component({templateUrl:'template.html'}) class MyComponent {   constructor(router: Router) {     const state: RouterState = router.routerState;     const root: ActivatedRoute = state.root;     const child = root.firstChild;     const id: Observable<string> = child.params.map(p => p.id);     //...   } } ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RouterStateSnapshot",
+      "path": "router/index/RouterStateSnapshot-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` @Component({templateUrl:'template.html'}) class MyComponent {   constructor(router: Router) {     const state: RouterState = router.routerState;     const snapshot: RouterStateSnapshot = state.snapshot;     const root: ActivatedRouteSnapshot = snapshot.root;     const child = root.firstChild;     const id: Observable<string> = child.params.map(p => p.id);     //...   } } ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "Routes",
+      "path": "router/index/Routes-type-alias.html",
+      "docType": "type-alias",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RoutesRecognized",
+      "path": "router/index/RoutesRecognized-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "RunGuardsAndResolvers",
+      "path": "router/index/RunGuardsAndResolvers-type-alias.html",
+      "docType": "type-alias",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "UrlHandlingStrategy",
+      "path": "router/index/UrlHandlingStrategy-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "UrlSegment",
+      "path": "router/index/UrlSegment-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` @Component({templateUrl:'template.html'}) class MyComponent {   constructor(router: Router) {     const tree: UrlTree = router.parseUrl('/team;id=33');     const g: UrlSegmentGroup = tree.root.children[PRIMARY_OUTLET];     const s: UrlSegment[] = g.segments;     s[0].path; // returns 'team'     s[0].parameters; // returns {id: 33}   } } ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "UrlSegmentGroup",
+      "path": "router/index/UrlSegmentGroup-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "UrlSerializer",
+      "path": "router/index/UrlSerializer-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "UrlTree",
+      "path": "router/index/UrlTree-interface.html",
+      "docType": "interface",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` @Component({templateUrl:'template.html'}) class MyComponent {   constructor(router: Router) {     const tree: UrlTree =       router.parseUrl('/team/33/(user/victor//support:help)?debug=true#fragment');     const f = tree.fragment; // return 'fragment'     const q = tree.queryParams; // returns {debug: 'true'}     const g: UrlSegmentGroup = tree.root.children[PRIMARY_OUTLET];     const s: UrlSegment[] = g.segments; // returns 2 segments 'team' and '33'     g.children[PRIMARY_OUTLET].segments; // returns 2 segments 'user' and 'victor'     g.children['support'].segments; // return 1 segment 'help'   } } ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "router/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "convertToParamMap",
+      "path": "router/index/convertToParamMap-function.html",
+      "docType": "function",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "router"
+    },
+    
+    {
+      "title": "provideRoutes",
+      "path": "router/index/provideRoutes-function.html",
+      "docType": "function",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` @NgModule({   imports: [RouterModule.forChild(ROUTES)],   providers: [provideRoutes(EXTRA_ROUTES)] }) class MyNgModule {} ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router"
+    }
+    
+  
+  
+    {
+      "title": "RouterTestingModule",
+      "path": "router/testing/index/RouterTestingModule-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` beforeEach(() => {   TestBed.configureTestModule({     imports: [       RouterTestingModule.withRoutes(         [{path: '', component: BlankCmp}, {path: 'simple', component: SimpleCmp}])]       )     ]   }); }); ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router/testing"
+    },
+    
+    {
+      "title": "SpyNgModuleFactoryLoader",
+      "path": "router/testing/index/SpyNgModuleFactoryLoader-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "``` const loader = TestBed.get(NgModuleFactoryLoader);  @Component({template: 'lazy-loaded'}) class LazyLoadedComponent {} @NgModule({   declarations: [LazyLoadedComponent],   imports: [RouterModule.forChild([{path: 'loaded', component: LazyLoadedComponent}])] })  class LoadedModule {}  // sets up stubbedModules loader.stubbedModules = {lazyModule: LoadedModule};  router.resetConfig([   {path: 'lazy', loadChildren: 'lazyModule'}, ]);  router.navigateByUrl('/lazy/loaded'); ``` ",
+      "whatItDoes": "Exists",
+      "barrel" : "router/testing"
+    },
+    
+    {
+      "title": "setupTestingRouter",
+      "path": "router/testing/index/setupTestingRouter-function.html",
+      "docType": "function",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "router/testing"
+    }
+    
+  
+  
+    {
+      "title": "UpgradeAdapter",
+      "path": "upgrade/index/UpgradeAdapter-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "upgrade"
+    },
+    
+    {
+      "title": "UpgradeAdapterRef",
+      "path": "upgrade/index/UpgradeAdapterRef-class.html",
+      "docType": "class",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "upgrade"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "upgrade/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "upgrade"
+    }
+    
+  
+  
+    {
+      "title": "UpgradeComponent",
+      "path": "upgrade/static/index/UpgradeComponent-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "Let's assume that you have an AngularJS component called `ng1Hero` that needs to be made available in Angular templates.  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'ng1-hero\')  We must create a <a href='core/index/Directive-decorator.html'><code>Directive</code></a> that will make this AngularJS component available inside Angular templates.  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'ng1-hero-wrapper\')  In this example you can see that we must derive from the <a href='upgrade/static/index/UpgradeComponent-class.html'><code>UpgradeComponent</code></a> base class but also provide an <a href='core/index/Directive-decorator.html'>`@Directive`</a> decorator. This is because the AoT compiler requires that this information is statically available at compile time.  Note that we must do the following: * specify the directive's selector (`ng1-hero`) * specify all inputs and outputs that the AngularJS component expects * derive from `UpgradeComponent` * call the base class from the constructor, passing   * the AngularJS name of the component (`ng1Hero`)   * the <a href='core/index/ElementRef-class.html'><code>ElementRef</code></a> and <a href='core/index/Injector-class.html'><code>Injector</code></a> for the component wrapper ",
+      "whatItDoes": "Exists",
+      "barrel" : "upgrade/static"
+    },
+    
+    {
+      "title": "UpgradeModule",
+      "path": "upgrade/static/index/UpgradeModule-class.html",
+      "docType": "class",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "`import {UpgradeModule} from '@angular/upgrade/static';`  ## Example Import the <a href='upgrade/static/index/UpgradeModule-class.html'><code>UpgradeModule</code></a> into your top level <a href='core/index/NgModule-interface.html'>Angular `NgModule`</a>.  +makeExample('_api/upgrade/static/ts/module.ts', 'ng2-module', null)  Then bootstrap the hybrid upgrade app's module, get hold of the <a href='upgrade/static/index/UpgradeModule-class.html'><code>UpgradeModule</code></a> instance and use it to bootstrap the top level [AngularJS module](https://docs.angularjs.org/api/ng/type/angular.Module).  +makeExample('_api/upgrade/static/ts/module.ts', 'bootstrap', null)   ## Upgrading an AngularJS service  There is no specific API for upgrading an AngularJS service. Instead you should just follow the following recipe:  Let's say you have an AngularJS service:  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'ng1-title-case-service\')  Then you should define an Angular provider to be included in your <a href='core/index/NgModule-interface.html'><code>NgModule</code></a> `providers` property.  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'upgrade-ng1-service\')  Then you can use the \"upgraded\" AngularJS service by injecting it into an Angular component or service.  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'use-ng1-upgraded-service\') ",
+      "whatItDoes": "Exists",
+      "barrel" : "upgrade/static"
+    },
+    
+    {
+      "title": "VERSION",
+      "path": "upgrade/static/index/VERSION-let.html",
+      "docType": "let",
+      "stability": "stable",
+      "secure": "false",
+      "howToUse": "",
+      "whatItDoes": "Not Done",
+      "barrel" : "upgrade/static"
+    },
+    
+    {
+      "title": "downgradeComponent",
+      "path": "upgrade/static/index/downgradeComponent-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "Let's assume that you have an Angular component called `ng2Heroes` that needs to be made available in AngularJS templates.  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'ng2-heroes\')  We must create an AngularJS [directive](https://docs.angularjs.org/guide/directive) that will make this Angular component available inside AngularJS templates. The `downgradeComponent()` function returns a factory function that we can use to define the AngularJS directive that wraps the \"downgraded\" component.  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'ng2-heroes-wrapper\') ",
+      "whatItDoes": "Exists",
+      "barrel" : "upgrade/static"
+    },
+    
+    {
+      "title": "downgradeInjectable",
+      "path": "upgrade/static/index/downgradeInjectable-function.html",
+      "docType": "function",
+      "stability": "experimental",
+      "secure": "false",
+      "howToUse": "First ensure that the service to be downgraded is provided in an <a href='core/index/NgModule-interface.html'><code>NgModule</code></a> that will be part of the upgrade application. For example, let's assume we have defined `HeroesService`  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'ng2-heroes-service\')  and that we have included this in our upgrade app <a href='core/index/NgModule-interface.html'><code>NgModule</code></a>  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'ng2-module\')  Now we can register the `downgradeInjectable` factory function for the service on an AngularJS module.  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'downgrade-ng2-heroes-service\')  Inside an AngularJS component's controller we can get hold of the downgraded service via the name we gave when downgrading.  +makeExample('_api/upgrade/static/ts/module.ts', 'region=\', 'example-app\') ",
+      "whatItDoes": "Exists",
+      "barrel" : "upgrade/static"
+    }
+    
+  
+]
